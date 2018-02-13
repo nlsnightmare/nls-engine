@@ -1,0 +1,1 @@
+{ "directory": "/home/nlsnightmare/Documents/C++/GUI/OpenGL", "file": "src/graphics/Camera.cpp", "output": "obj/Camera.o", "arguments": ["/usr/lib/llvm-5.0/bin/clang", "-xc++", "src/graphics/Camera.cpp", "--driver-mode=g++", "-c", "-o", "obj/Camera.o", "-std=c++1z", "-g", "--target=x86_64-pc-linux-gnu"]},

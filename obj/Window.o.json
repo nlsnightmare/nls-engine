@@ -1,0 +1,1 @@
+{ "directory": "/home/nlsnightmare/Documents/C++/GUI/OpenGL", "file": "src/Window.cpp", "output": "obj/Window.o", "arguments": ["/usr/lib/llvm-5.0/bin/clang", "-xc++", "src/Window.cpp", "--driver-mode=g++", "-c", "-o", "obj/Window.o", "-std=c++1z", "-g", "--target=x86_64-pc-linux-gnu"]},
