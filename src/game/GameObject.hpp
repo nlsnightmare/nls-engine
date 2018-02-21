@@ -24,6 +24,7 @@ private:
 GameObject* new_gameobject(std::string name, std::string s);
 std::string GameObject_get_name(GameObject* go);
 void GameObject_set_position(GameObject* go, float x, float y, float z);
+void GameObject_translate(GameObject* go, float x, float y, float z);
 std::tuple<float, float, float> GameObject_get_position(GameObject* go);
 float GameObject_get_x(GameObject* go);
 void GameObject_set_x(GameObject* go, float x);
