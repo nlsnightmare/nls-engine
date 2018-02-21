@@ -1,0 +1,1 @@
+{ "directory": "/home/nlsnightmare/Documents/C++/GUI/OpenGL", "file": "src/graphics/low_level/Texture.cpp", "output": "obj/Texture.o", "arguments": ["/usr/lib/llvm-5.0/bin/clang", "-xc++", "src/graphics/low_level/Texture.cpp", "--driver-mode=g++", "-c", "-o", "obj/Texture.o", "-std=c++1z", "-g", "--target=x86_64-pc-linux-gnu"]},
