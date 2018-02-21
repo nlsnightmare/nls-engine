@@ -1,1 +1,0 @@
-{ "directory": "/home/nlsnightmare/Documents/C++/GUI/OpenGL", "file": "src/graphics/SpriteRenderer.cpp", "output": "obj/SpriteRenderer.o", "arguments": ["/usr/lib/llvm-5.0/bin/clang", "-xc++", "src/graphics/SpriteRenderer.cpp", "--driver-mode=g++", "-c", "-o", "obj/SpriteRenderer.o", "-std=c++1z", "-g", "--target=x86_64-pc-linux-gnu"]},
