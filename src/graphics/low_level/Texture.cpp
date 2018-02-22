@@ -11,6 +11,7 @@ std::unordered_map<std::string, Texture*> Texture::textures;
 Texture::Texture(std::string filename, bool has_alpha){
     int width, height, nrChanells;
     m_data = stbi_load(filename.c_str(), &width, &height, &nrChanells, 0);
+
     if (m_data == NULL) {
 	std::cout << "invalid texture path! " << filename << std::endl;
     }
@@ -19,8 +20,11 @@ Texture::Texture(std::string filename, bool has_alpha){
     glGenTextures(1, &m_id);
     glBindTexture(GL_TEXTURE_2D, m_id);
 
-    if (has_alpha)
-	glTexImage2D(GL_TEXTURE_2D, 0, GL_RGB, width, height, 0, GL_RGBA, GL_UNSIGNED_BYTE, m_data);
+    if (nrChanells == 4)
+    {
+	std::cout << filename << " has alpha!" << std::endl;
+	glTexImage2D(GL_TEXTURE_2D, 0, GL_RGBA, width, height, 0, GL_RGBA, GL_UNSIGNED_BYTE, m_data);
+    }
     else
 	glTexImage2D(GL_TEXTURE_2D, 0, GL_RGB, width, height, 0, GL_RGB, GL_UNSIGNED_BYTE, m_data);
 

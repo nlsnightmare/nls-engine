@@ -53,6 +53,8 @@ Window::Window(int width,int height, bool fullscreen, std::string title)
     GLenum err;
 
     while((err = glGetError()) != GL_NO_ERROR);
+    glEnable(GL_BLEND);
+    glBlendFunc(GL_SRC_ALPHA, GL_ONE_MINUS_SRC_ALPHA);
     glClearColor(0.2f,0.2f,0.3f, 1.0f);
     Window::instance = this;
 }
