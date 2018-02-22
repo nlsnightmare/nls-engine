@@ -27,8 +27,6 @@ Sprite::Sprite(Texture* t, Shader* s)
     set_position(1,0,0);
 
     SpriteRenderer::register_sprite(this);
-    std::cout << "done" << std::endl;
-
 }
 
 Sprite::~Sprite(){

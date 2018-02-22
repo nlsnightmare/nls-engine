@@ -6,6 +6,7 @@ function Player()
    self.speed = 4;
 
    function self.update(dt)
+
       if get_key(keys.W) then
 	 self.translate(0, self.speed * dt,0)
       elseif get_key(keys.S) then

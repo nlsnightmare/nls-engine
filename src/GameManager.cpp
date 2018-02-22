@@ -37,7 +37,6 @@ void GameManager::initialize_script(){
     script.executeCode(
 	"function include(file)\n"
 	"n_file = './scripts/'..file\n"
-	"print(n_file)\n"
 	"require(n_file)\n"
 	"end\n"
 	);
@@ -53,8 +52,6 @@ void GameManager::initialize_script(){
 GameObject* GameManager::add_entity(std::string name, std::string s){
     GameObject* go = new GameObject(name, s);
     entities.push_back(go);
-    std::cout << "added: " << name << std::endl;
-
     return go;
 }
 

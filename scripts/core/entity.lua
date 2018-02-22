@@ -1,5 +1,7 @@
+entities = {}
 function Entity(img, n1)
    local self = {}
+   entities[#entities + 1] = self
    self.ptr = new_entity(img,n1)
 
 
@@ -36,6 +38,9 @@ function Entity(img, n1)
       return entity_get_x(self.ptr)
    end
    
+
+   function self.update(dt)
+   end
    
    return self
 end
