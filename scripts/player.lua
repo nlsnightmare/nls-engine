@@ -8,19 +8,17 @@ function Player()
    self.set_pos(5,5,-1)
    function self.update(dt)
 
-      if get_key(keys.W) then
+      if get_key(keys.UP) then
 	 self.translate(0, self.speed * dt,0)
-      elseif get_key(keys.S) then
+      elseif get_key(keys.DOWN) then
 	 self.translate(0, -self.speed * dt,0)
       end
 
-      if get_key(keys.A) then
+      if get_key(keys.LEFT) then
 	 self.translate(-self.speed * dt,0,0)
-      elseif get_key(keys.D) then
+      elseif get_key(keys.RIGHT) then
 	 self.translate(self.speed * dt,0,0)
       end
-
-
    end
 
    return self
