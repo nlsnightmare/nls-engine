@@ -53,6 +53,8 @@ Window::Window(int width,int height, bool fullscreen, std::string title)
     GLenum err;
 
     while((err = glGetError()) != GL_NO_ERROR);
+
+    glEnable(GL_DEPTH_TEST);
     glEnable(GL_BLEND);
     glBlendFunc(GL_SRC_ALPHA, GL_ONE_MINUS_SRC_ALPHA);
     glClearColor(0.2f,0.2f,0.3f, 1.0f);
@@ -77,7 +79,7 @@ void Window::Update(){
 	now = glfwGetTime();
 	dt = now - last_time;
 	fps = 1/dt;
-	glClear(GL_COLOR_BUFFER_BIT);
+	glClear(GL_COLOR_BUFFER_BIT | GL_DEPTH_BUFFER_BIT );
 
 	glClearColor(( sin(now * 5)+1 ) / 2,0.2f,0.3f, 1.0f);
 
