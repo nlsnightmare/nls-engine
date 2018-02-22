@@ -30,6 +30,7 @@ namespace graphics {
 	void translate(const glm::vec3& v);
 
 
+	glm::vec3 get_scale() const;
 	void scale(float x, float y, float z);
 	void scale(const glm::vec3& v);
 

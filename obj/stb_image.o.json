@@ -1,1 +1,0 @@
-{ "directory": "/home/nlsnightmare/Documents/C++/GUI/OpenGL", "file": "src/graphics/low_level/stb_image.cpp", "output": "obj/stb_image.o", "arguments": ["/usr/lib/llvm-5.0/bin/clang", "-xc++", "src/graphics/low_level/stb_image.cpp", "--driver-mode=g++", "-c", "-o", "obj/stb_image.o", "-std=c++1z", "-g", "--target=x86_64-pc-linux-gnu"]},

@@ -1,1 +1,0 @@
-{ "directory": "/home/nlsnightmare/Documents/C++/GUI/OpenGL", "file": "src/graphics/low_level/VertexArray.cpp", "output": "obj/VertexArray.o", "arguments": ["/usr/lib/llvm-5.0/bin/clang", "-xc++", "src/graphics/low_level/VertexArray.cpp", "--driver-mode=g++", "-c", "-o", "obj/VertexArray.o", "-std=c++1z", "-g", "--target=x86_64-pc-linux-gnu"]},

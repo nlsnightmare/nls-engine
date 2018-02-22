@@ -24,7 +24,8 @@ Sprite::Sprite(Texture* t, Shader* s)
 
     m_shader->Bind();
     m_shader->setTexture("image", *t);
-    set_position(1,0,0);
+    set_position(0,0,0);
+    scale(1,1,1);
 
     SpriteRenderer::register_sprite(this);
 }
@@ -79,8 +80,14 @@ void Sprite::scale(float x, float y, float z){
     this->scale(glm::vec3(x,y,z));
 }
 void Sprite::scale(const glm::vec3& v){
+    m_scale = v;
     m_scale_matrix = glm::scale(glm::mat4(), v);
     calculate_model_matrix();
+}
+
+
+glm::vec3 Sprite::get_scale() const{
+    return m_scale;
 }
     
 

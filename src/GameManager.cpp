@@ -26,11 +26,11 @@ void GameManager::loop(float dt){
 
     if (update_func)
 	update_func(dt);
+
 }
 
 
 void GameManager::initialize_script(){
-
     std::ifstream src_code("./scripts/main.lua");
     
     //TODO: maybe move it to GameObject too?
