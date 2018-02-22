@@ -23,7 +23,8 @@ Sprite::Sprite(Texture* t, Shader* s)
     m_vao = new VertexArray(d, 4, indicies, 2 * 3);
 
     m_shader->Bind();
-    m_shader->setTexture("image", *t);
+    std::cout << t->ID() << std::endl;
+
     set_position(0,0,0);
     scale(1,1,1);
 

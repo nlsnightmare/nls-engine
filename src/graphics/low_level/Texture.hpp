@@ -16,6 +16,7 @@ namespace graphics {
 	inline unsigned int ID() const { return m_id; };
 
 	static Texture* get(std::string name);
+	static Texture* get(int id);
 	static void load_textures(std::string path);
 	static void delete_textures();
     
@@ -25,7 +26,8 @@ namespace graphics {
 	int m_width, m_height, m_Chanells;
 	unsigned char *m_data;
 
-	static std::unordered_map<std::string, Texture*> textures;
+	static std::unordered_map<std::string, Texture*> textures_n;
+	static std::unordered_map<int, Texture*> textures_i;
     };
 
 }

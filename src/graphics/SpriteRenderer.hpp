@@ -20,7 +20,7 @@ namespace graphics {
 
 
     private:
-	static std::unordered_map<int,Sprite*> sprites;
+	static std::unordered_map<int,std::vector<Sprite*>> sprites;
     };
 
 }

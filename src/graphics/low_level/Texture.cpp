@@ -6,7 +6,8 @@
 
 using namespace graphics;
 
-std::unordered_map<std::string, Texture*> Texture::textures;
+std::unordered_map<std::string, Texture*> Texture::textures_n;
+std::unordered_map<int, Texture*> Texture::textures_i;
 
 Texture::Texture(std::string filename, bool has_alpha){
     int width, height, nrChanells;
@@ -66,14 +67,27 @@ void Texture::load_textures(std::string path){
 	std::string file = p.path().string();
 	Texture* t = new Texture(file);
 	std::string name = file.substr(file.find_last_of("/") + 1);
-	Texture::textures.insert(std::make_pair(name, t));
+	Texture::textures_n.insert(std::make_pair(name, t));
+	Texture::textures_i.insert(std::make_pair(t->ID(), t));
+    }
+}
+
+Texture* Texture::get(int id){
+    auto s = Texture::textures_i.find(id);
+
+    if (s == Texture::textures_i.end()) {
+	std::cout << "couldn't find texture [" << id << "]" << std::endl;
+	return nullptr;
+    }
+    else {
+	return s->second;
     }
 }
 
 Texture* Texture::get(std::string name){
-    auto s = Texture::textures.find(name);
+    auto s = Texture::textures_n.find(name);
 
-    if (s == Texture::textures.end()) {
+    if (s == Texture::textures_n.end()) {
 	std::cout << "couldn't find texture [" << name << "]" << std::endl;
 	return nullptr;
     }
@@ -82,7 +96,7 @@ Texture* Texture::get(std::string name){
     }
 }
 void Texture::delete_textures(){
-    for( auto kv : Texture::textures ){
+    for( auto kv : Texture::textures_n ){
 	delete kv.second;
     }
 }
