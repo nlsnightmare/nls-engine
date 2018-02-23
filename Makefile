@@ -333,6 +333,36 @@ src/main.s:
 	$(MAKE) -f CMakeFiles/nls-engine.dir/build.make CMakeFiles/nls-engine.dir/src/main.s
 .PHONY : src/main.s
 
+# target to build an object file
+src/physics/BoxCollider2D.o:
+	$(MAKE) -f CMakeFiles/nls-engine.dir/build.make CMakeFiles/nls-engine.dir/src/physics/BoxCollider2D.o
+.PHONY : src/physics/BoxCollider2D.o
+
+# target to preprocess a source file
+src/physics/BoxCollider2D.i:
+	$(MAKE) -f CMakeFiles/nls-engine.dir/build.make CMakeFiles/nls-engine.dir/src/physics/BoxCollider2D.i
+.PHONY : src/physics/BoxCollider2D.i
+
+# target to generate assembly for a file
+src/physics/BoxCollider2D.s:
+	$(MAKE) -f CMakeFiles/nls-engine.dir/build.make CMakeFiles/nls-engine.dir/src/physics/BoxCollider2D.s
+.PHONY : src/physics/BoxCollider2D.s
+
+# target to build an object file
+src/physics/PhysicsEngine.o:
+	$(MAKE) -f CMakeFiles/nls-engine.dir/build.make CMakeFiles/nls-engine.dir/src/physics/PhysicsEngine.o
+.PHONY : src/physics/PhysicsEngine.o
+
+# target to preprocess a source file
+src/physics/PhysicsEngine.i:
+	$(MAKE) -f CMakeFiles/nls-engine.dir/build.make CMakeFiles/nls-engine.dir/src/physics/PhysicsEngine.i
+.PHONY : src/physics/PhysicsEngine.i
+
+# target to generate assembly for a file
+src/physics/PhysicsEngine.s:
+	$(MAKE) -f CMakeFiles/nls-engine.dir/build.make CMakeFiles/nls-engine.dir/src/physics/PhysicsEngine.s
+.PHONY : src/physics/PhysicsEngine.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -384,6 +414,12 @@ help:
 	@echo "... src/main.o"
 	@echo "... src/main.i"
 	@echo "... src/main.s"
+	@echo "... src/physics/BoxCollider2D.o"
+	@echo "... src/physics/BoxCollider2D.i"
+	@echo "... src/physics/BoxCollider2D.s"
+	@echo "... src/physics/PhysicsEngine.o"
+	@echo "... src/physics/PhysicsEngine.i"
+	@echo "... src/physics/PhysicsEngine.s"
 .PHONY : help
 
 
