@@ -24,7 +24,8 @@ function update(dt)
    for i=1,#entities do
       for j = i+1,#entities do
 	 if entities[i].intersects(entities[j]) then
-	    print(i.." and "..j.." intersect!")
+	    entities[i].on_collision(entities[j])
+	    entities[j].on_collision(entities[i])
 	 end
       end
    end

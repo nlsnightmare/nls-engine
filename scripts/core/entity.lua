@@ -90,6 +90,11 @@ function Entity(img, n1)
       local int_y = y < oy + oh and y + w > oy
       return int_x and int_y
    end
+
+
+   function self.on_collision(other)
+      print("collided with: "..other.get_name())
+   end
    
    
    return self
