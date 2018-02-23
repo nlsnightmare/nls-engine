@@ -13,6 +13,7 @@ public:
 
     void loop(float dt);
 
+    void collision_event(GameObject* src, GameObject* dst);
     static GameObject* add_entity(std::string name, std::string s);
     static int get_entity_index(GameObject* go);
 private:

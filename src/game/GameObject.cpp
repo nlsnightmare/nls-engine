@@ -1,4 +1,5 @@
 #include "GameObject.hpp"
+#include "../physics/PhysicsEngine.hpp"
 
 using namespace graphics;
 
@@ -6,6 +7,8 @@ GameObject::GameObject(std::string name, std::string s)
     : Sprite(Texture::get(name))
 {
     this->name = s;
+
+    attach_collider();
 }
 
 void GameObject::set_lua_bindings(LuaContext& script){
@@ -17,6 +20,27 @@ void GameObject::set_lua_bindings(LuaContext& script){
     script.writeFunction("entity_get_position",&GameObject_get_position);
 }
 
+void GameObject::attach_collider(){
+    using namespace physics;
+    auto pos = get_position();
+    float x = pos.x;
+    float y = pos.x;
+    
+    auto scale = get_scale();
+    float w = scale.x;
+    float h = scale.y;
+
+    m_col = new BoxCollider2D(x,y,w,h, this);
+    PhysicsEngine::register_collider(m_col);
+}
+
+int  GameObject::get_ID(){
+    return ID;
+}
+void GameObject::set_ID(int val){
+    ID = val;
+}
+
 std::tuple<float, float, float> GameObject_get_position(GameObject* go){
     auto p = go->get_position();
     return std::make_tuple(p.x, p.y, p.z);
@@ -24,10 +48,12 @@ std::tuple<float, float, float> GameObject_get_position(GameObject* go){
 
 
 void GameObject_set_position(GameObject* go, float x, float y, float z){
+    go->m_col->set_pos(x,y);
     go->set_position(x, y, z);
 }
 
 void GameObject_translate(GameObject* go, float x, float y, float z){
+    go->m_col->move(x,y);
     go->translate(x, y, z);
 }
 
@@ -40,5 +66,6 @@ std::tuple<float, float, float> GameObject_get_scale(GameObject* go){
     return std::make_tuple(scale.x, scale.y, scale.z);
 }
 void GameObject_set_scale(GameObject* go, float x, float y, float z){
+    go->m_col->resize(x,y);
     go->scale(x, y, z);
 }

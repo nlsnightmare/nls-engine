@@ -52,16 +52,31 @@ void GameManager::initialize_script(){
 
 GameObject* GameManager::add_entity(std::string name, std::string s){
     GameObject* go = new GameObject(name, s);
+    int id = entities.size();
     entities.push_back(go);
+    go->set_ID(id);
     return go;
 }
+
 int GameManager::get_entity_index(GameObject* ptr){
     for (auto i = 0; i < entities.size(); ++i) {
 	if (entities[i] == ptr)
 	    return i;
     }
     return -1;
+}
 
+void GameManager::collision_event(GameObject* src, GameObject* dst){
+    int srcID = src->get_ID();
+    int dstID = dst->get_ID();
+    script.writeVariable("__tmp1", srcID);
+    script.writeVariable("__tmp2", dstID);
+    script.executeCode(
+	"__tmp3 = find_entity(__tmp1);"
+	"__tmp4 = find_entity(__tmp2);"
+	"__tmp3.on_collision(__tmp4);"
+	"__tmp4.on_collision(__tmp3);"
+	);
 }
 
 GameManager::~GameManager(){

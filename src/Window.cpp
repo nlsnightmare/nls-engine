@@ -40,7 +40,6 @@ Window::Window(int width,int height, bool fullscreen, std::string title)
 	Close();
     }
 
-
     glViewport(0, 0, m_width, m_height);
     glfwMakeContextCurrent(m_window);
 

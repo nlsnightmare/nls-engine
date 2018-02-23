@@ -30,14 +30,10 @@ int main(int argc, char *argv[])
     Window main_window(width, height, fs, "Nls-Engine");
     GameManager gm;
     physics::PhysicsEngine pe;
-    physics::BoxCollider2D b1(0,0,10,10);
-    physics::BoxCollider2D b2(10,0,10,10);
-    physics::BoxCollider2D b3(20,0,10,10);
+    pe.set_trigger([&gm](GameObject* p1, GameObject* p2) mutable {
+	    gm.collision_event(p1,p2);
+	});
 
-    pe.register_collider(&b1);
-    pe.register_collider(&b2);
-    pe.register_collider(&b3);
-    // Window main_window(1600, 900, true, "test");
     main_window.set_update_function([&](float dt) mutable {
 	    graphics::SpriteRenderer::Render();
 	    gm.loop(dt);
