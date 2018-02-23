@@ -23,7 +23,6 @@ Texture::Texture(std::string filename, bool has_alpha){
 
     if (nrChanells == 4)
     {
-	std::cout << filename << " has alpha!" << std::endl;
 	glTexImage2D(GL_TEXTURE_2D, 0, GL_RGBA, width, height, 0, GL_RGBA, GL_UNSIGNED_BYTE, m_data);
     }
     else

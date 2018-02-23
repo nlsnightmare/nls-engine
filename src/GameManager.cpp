@@ -40,6 +40,7 @@ void GameManager::initialize_script(){
 	"require(n_file)\n"
 	"end\n"
 	);
+
     script.writeFunction("new_entity",&GameManager::add_entity);
     script.writeFunction("__get_key",&Window::get_key_down);
 
