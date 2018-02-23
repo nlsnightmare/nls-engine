@@ -13,16 +13,15 @@ void SpriteRenderer::register_sprite(graphics::Sprite &s){
 
 void SpriteRenderer::register_sprite(graphics::Sprite* s){
     int text_id = s->get_texture().ID();
+    auto it = sprites.find(text_id);
 
-    if (sprites.find(text_id) == sprites.end()) {
+    if (it == sprites.end()) {
 	std::vector<Sprite*> v;
 	v.push_back(s);
 	sprites.insert(std::make_pair(text_id,v));
     }
-
-    // static int i = 0;
-    // sprites.insert(std::make_pair(i, s));
-    // i++;
+    else 
+	it->second.push_back(s);
 }
 
 void SpriteRenderer::Render(){
@@ -32,8 +31,5 @@ void SpriteRenderer::Render(){
 	for (auto s : v.second) {
 	    s->Draw();
 	}
-
-	// GameObject* go = (GameObject*)s.second;
-	// s.second->Draw();
     }
 }
