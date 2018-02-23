@@ -23,9 +23,9 @@ function Entity(img, n1)
    }
 
    self.scale = {
-      x = 0,
-      y = 0,
-      z = 0
+      x = 1,
+      y = 1,
+      z = 1
    }
    
 
@@ -72,6 +72,25 @@ function Entity(img, n1)
 
    function self.update(dt)
    end
+
+
+
+   function self.intersects(other)
+      local x = self.position.x
+      local y = self.position.y
+      local w = self.scale.x
+      local h = self.scale.y
+
+      local ox = other.position.x
+      local oy = other.position.y
+      local ow = other.scale.x
+      local oh = other.scale.y
+
+      local int_x = x < ox + ow and x + w > ox
+      local int_y = y < oy + oh and y + w > oy
+      return int_x and int_y
+   end
+   
    
    return self
 end

@@ -2,7 +2,7 @@ include("core/entity")
 include("core/input")
 
 function Player()
-   local self = Entity("awesomeface.png", "player")
+   local self = Entity("box.jpg", "player")
    self.speed = 4;
 
    self.set_pos(5,5,-1)
