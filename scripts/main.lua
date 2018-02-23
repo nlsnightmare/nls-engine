@@ -2,16 +2,12 @@ include("core/input")
 include("core/entity")
 include("player")
 local player = Player()
-local wall0 = Entity("box.png", "random")
-local wall1 = Entity("box.png", "random")
-local wall2 = Entity("box.png", "random")
+for i = 1,10 do
+   local e = Entity("box.png", "box"..i)
 
-player.set_pos(1,2,0)
-player.set_scale(1,1,1)
+   e.set_pos(i,0,0)
 
-wall0.set_pos(0,0,0)
-wall1.set_pos(0,1,0)
-wall2.set_pos(0,2,0)
+end
 
 local x = 0
 local dx = 3
@@ -30,4 +26,3 @@ function update(dt)
       end
    end
 end
-

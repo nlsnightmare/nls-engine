@@ -21,5 +21,10 @@ function Player()
       end
    end
 
+
+   function self.on_collision(other)
+      print("player collided with: "..other.get_name())
+   end
+
    return self
 end

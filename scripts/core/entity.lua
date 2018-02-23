@@ -1,11 +1,17 @@
 entities = {}
 
-function find_entity(name)
+function find_entity(filter)
+   if type(filter) == "string" then
+      for _,e in pairs(entities) do
+	 if e.get_name() == filter then
+	    return e
+	 end
+      end
+   end
    for _,e in pairs(entities) do
-      if e.get_name() == name then
+      if e.id == filter then
 	 return e
       end
-
    end
 end
 
@@ -15,6 +21,7 @@ function Entity(img, n1)
    local self = {}
    entities[#entities + 1] = self
    self.ptr = new_entity(img,n1)
+   self.id = entity_get_id(self.ptr)
 
    self.position = {
       x = 0,
@@ -93,7 +100,6 @@ function Entity(img, n1)
 
 
    function self.on_collision(other)
-      print("collided with: "..other.get_name())
    end
    
    

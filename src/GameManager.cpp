@@ -16,6 +16,11 @@ GameManager::GameManager()
     main_camera->make_main();
 
     initialize_script();
+
+
+    script.executeCode(
+	"print(find_entity(2).get_name())"
+	);
 }
 
 void GameManager::loop(float dt){
@@ -26,7 +31,6 @@ void GameManager::loop(float dt){
 
     if (update_func)
 	update_func(dt);
-
 }
 
 
@@ -42,6 +46,7 @@ void GameManager::initialize_script(){
 	);
 
     script.writeFunction("new_entity",&GameManager::add_entity);
+    script.writeFunction("entity_get_id",&GameManager::get_entity_index);
     script.writeFunction("__get_key",&Window::get_key_down);
 
     GameObject::set_lua_bindings(script);
@@ -54,6 +59,14 @@ GameObject* GameManager::add_entity(std::string name, std::string s){
     GameObject* go = new GameObject(name, s);
     entities.push_back(go);
     return go;
+}
+int GameManager::get_entity_index(GameObject* ptr){
+    for (auto i = 0; i < entities.size(); ++i) {
+	if (entities[i] == ptr)
+	    return i;
+    }
+    return -1;
+
 }
 
 GameManager::~GameManager(){
