@@ -16,11 +16,6 @@ GameManager::GameManager()
     main_camera->make_main();
 
     initialize_script();
-
-
-    script.executeCode(
-	"print(find_entity(2).get_name())"
-	);
 }
 
 void GameManager::loop(float dt){
