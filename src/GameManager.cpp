@@ -66,16 +66,31 @@ int GameManager::get_entity_index(GameObject* ptr){
     return -1;
 }
 
-void GameManager::collision_event(GameObject* src, GameObject* dst){
+
+void GameManager::collision_event(GameObject* src, GameObject* dst, olliderData& dt){
+    glm::vec2 a;
     int srcID = src->get_ID();
     int dstID = dst->get_ID();
+    struct t {
+	int x;
+	int y;
+    };
+
+    t temp;
+    temp.x = 1;
+    temp.y = 2;
+    script.writeVariable("__temp0",std::unordered_map<std::string, int>{
+	    {"x", temp.x},
+	    {"y", temp.y}
+	});
+
     script.writeVariable("__tmp1", srcID);
     script.writeVariable("__tmp2", dstID);
     script.executeCode(
 	"__tmp3 = find_entity(__tmp1);"
 	"__tmp4 = find_entity(__tmp2);"
-	"__tmp3.on_collision(__tmp4);"
-	"__tmp4.on_collision(__tmp3);"
+	"__tmp3.on_collision(__tmp4,__temp0);"
+	"__tmp4.on_collision(__tmp3, __temp0);"
 	);
 }
 

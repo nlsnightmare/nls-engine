@@ -99,7 +99,9 @@ function Entity(img, n1)
    end
 
 
-   function self.on_collision(other)
+   function self.on_collision(other,data)
+      print("we collided on x:"..data.x)
+      print("we collided on y:"..data.y)
    end
    
    
