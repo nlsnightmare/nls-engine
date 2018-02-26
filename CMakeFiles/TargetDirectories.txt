@@ -1,0 +1,3 @@
+/home/nlsnightmare/Documents/C++/GUI/OpenGL/CMakeFiles/edit_cache.dir
+/home/nlsnightmare/Documents/C++/GUI/OpenGL/CMakeFiles/rebuild_cache.dir
+/home/nlsnightmare/Documents/C++/GUI/OpenGL/CMakeFiles/nls-engine.dir

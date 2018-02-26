@@ -1,0 +1,82 @@
+[
+{
+  "directory": "/home/nlsnightmare/Documents/C++/GUI/OpenGL",
+  "command": "/usr/bin/clang++-5.0    -I/home/nlsnightmare/Documents/C++/GUI/OpenGL  -std=c++1z -g   -o CMakeFiles/nls-engine.dir/src/main.o -c /home/nlsnightmare/Documents/C++/GUI/OpenGL/src/main.cpp",
+  "file": "/home/nlsnightmare/Documents/C++/GUI/OpenGL/src/main.cpp"
+},
+{
+  "directory": "/home/nlsnightmare/Documents/C++/GUI/OpenGL",
+  "command": "/usr/bin/clang++-5.0    -I/home/nlsnightmare/Documents/C++/GUI/OpenGL  -std=c++1z -g   -o CMakeFiles/nls-engine.dir/src/GameManager.o -c /home/nlsnightmare/Documents/C++/GUI/OpenGL/src/GameManager.cpp",
+  "file": "/home/nlsnightmare/Documents/C++/GUI/OpenGL/src/GameManager.cpp"
+},
+{
+  "directory": "/home/nlsnightmare/Documents/C++/GUI/OpenGL",
+  "command": "/usr/bin/clang++-5.0    -I/home/nlsnightmare/Documents/C++/GUI/OpenGL  -std=c++1z -g   -o CMakeFiles/nls-engine.dir/src/LuaScript.o -c /home/nlsnightmare/Documents/C++/GUI/OpenGL/src/LuaScript.cpp",
+  "file": "/home/nlsnightmare/Documents/C++/GUI/OpenGL/src/LuaScript.cpp"
+},
+{
+  "directory": "/home/nlsnightmare/Documents/C++/GUI/OpenGL",
+  "command": "/usr/bin/clang++-5.0    -I/home/nlsnightmare/Documents/C++/GUI/OpenGL  -std=c++1z -g   -o CMakeFiles/nls-engine.dir/src/Window.o -c /home/nlsnightmare/Documents/C++/GUI/OpenGL/src/Window.cpp",
+  "file": "/home/nlsnightmare/Documents/C++/GUI/OpenGL/src/Window.cpp"
+},
+{
+  "directory": "/home/nlsnightmare/Documents/C++/GUI/OpenGL",
+  "command": "/usr/bin/clang++-5.0    -I/home/nlsnightmare/Documents/C++/GUI/OpenGL  -std=c++1z -g   -o CMakeFiles/nls-engine.dir/src/game/GameObject.o -c /home/nlsnightmare/Documents/C++/GUI/OpenGL/src/game/GameObject.cpp",
+  "file": "/home/nlsnightmare/Documents/C++/GUI/OpenGL/src/game/GameObject.cpp"
+},
+{
+  "directory": "/home/nlsnightmare/Documents/C++/GUI/OpenGL",
+  "command": "/usr/bin/clang++-5.0    -I/home/nlsnightmare/Documents/C++/GUI/OpenGL  -std=c++1z -g   -o CMakeFiles/nls-engine.dir/src/graphics/Camera.o -c /home/nlsnightmare/Documents/C++/GUI/OpenGL/src/graphics/Camera.cpp",
+  "file": "/home/nlsnightmare/Documents/C++/GUI/OpenGL/src/graphics/Camera.cpp"
+},
+{
+  "directory": "/home/nlsnightmare/Documents/C++/GUI/OpenGL",
+  "command": "/usr/bin/clang++-5.0    -I/home/nlsnightmare/Documents/C++/GUI/OpenGL  -std=c++1z -g   -o CMakeFiles/nls-engine.dir/src/graphics/Sprite.o -c /home/nlsnightmare/Documents/C++/GUI/OpenGL/src/graphics/Sprite.cpp",
+  "file": "/home/nlsnightmare/Documents/C++/GUI/OpenGL/src/graphics/Sprite.cpp"
+},
+{
+  "directory": "/home/nlsnightmare/Documents/C++/GUI/OpenGL",
+  "command": "/usr/bin/clang++-5.0    -I/home/nlsnightmare/Documents/C++/GUI/OpenGL  -std=c++1z -g   -o CMakeFiles/nls-engine.dir/src/graphics/SpriteRenderer.o -c /home/nlsnightmare/Documents/C++/GUI/OpenGL/src/graphics/SpriteRenderer.cpp",
+  "file": "/home/nlsnightmare/Documents/C++/GUI/OpenGL/src/graphics/SpriteRenderer.cpp"
+},
+{
+  "directory": "/home/nlsnightmare/Documents/C++/GUI/OpenGL",
+  "command": "/usr/bin/clang++-5.0    -I/home/nlsnightmare/Documents/C++/GUI/OpenGL  -std=c++1z -g   -o CMakeFiles/nls-engine.dir/src/graphics/low_level/ArrayBuffer.o -c /home/nlsnightmare/Documents/C++/GUI/OpenGL/src/graphics/low_level/ArrayBuffer.cpp",
+  "file": "/home/nlsnightmare/Documents/C++/GUI/OpenGL/src/graphics/low_level/ArrayBuffer.cpp"
+},
+{
+  "directory": "/home/nlsnightmare/Documents/C++/GUI/OpenGL",
+  "command": "/usr/bin/clang++-5.0    -I/home/nlsnightmare/Documents/C++/GUI/OpenGL  -std=c++1z -g   -o CMakeFiles/nls-engine.dir/src/graphics/low_level/IndexBuffer.o -c /home/nlsnightmare/Documents/C++/GUI/OpenGL/src/graphics/low_level/IndexBuffer.cpp",
+  "file": "/home/nlsnightmare/Documents/C++/GUI/OpenGL/src/graphics/low_level/IndexBuffer.cpp"
+},
+{
+  "directory": "/home/nlsnightmare/Documents/C++/GUI/OpenGL",
+  "command": "/usr/bin/clang++-5.0    -I/home/nlsnightmare/Documents/C++/GUI/OpenGL  -std=c++1z -g   -o CMakeFiles/nls-engine.dir/src/graphics/low_level/Shader.o -c /home/nlsnightmare/Documents/C++/GUI/OpenGL/src/graphics/low_level/Shader.cpp",
+  "file": "/home/nlsnightmare/Documents/C++/GUI/OpenGL/src/graphics/low_level/Shader.cpp"
+},
+{
+  "directory": "/home/nlsnightmare/Documents/C++/GUI/OpenGL",
+  "command": "/usr/bin/clang++-5.0    -I/home/nlsnightmare/Documents/C++/GUI/OpenGL  -std=c++1z -g   -o CMakeFiles/nls-engine.dir/src/graphics/low_level/Texture.o -c /home/nlsnightmare/Documents/C++/GUI/OpenGL/src/graphics/low_level/Texture.cpp",
+  "file": "/home/nlsnightmare/Documents/C++/GUI/OpenGL/src/graphics/low_level/Texture.cpp"
+},
+{
+  "directory": "/home/nlsnightmare/Documents/C++/GUI/OpenGL",
+  "command": "/usr/bin/clang++-5.0    -I/home/nlsnightmare/Documents/C++/GUI/OpenGL  -std=c++1z -g   -o CMakeFiles/nls-engine.dir/src/graphics/low_level/VertexArray.o -c /home/nlsnightmare/Documents/C++/GUI/OpenGL/src/graphics/low_level/VertexArray.cpp",
+  "file": "/home/nlsnightmare/Documents/C++/GUI/OpenGL/src/graphics/low_level/VertexArray.cpp"
+},
+{
+  "directory": "/home/nlsnightmare/Documents/C++/GUI/OpenGL",
+  "command": "/usr/bin/clang++-5.0    -I/home/nlsnightmare/Documents/C++/GUI/OpenGL  -std=c++1z -g   -o CMakeFiles/nls-engine.dir/src/graphics/low_level/stb_image.o -c /home/nlsnightmare/Documents/C++/GUI/OpenGL/src/graphics/low_level/stb_image.cpp",
+  "file": "/home/nlsnightmare/Documents/C++/GUI/OpenGL/src/graphics/low_level/stb_image.cpp"
+},
+{
+  "directory": "/home/nlsnightmare/Documents/C++/GUI/OpenGL",
+  "command": "/usr/bin/clang++-5.0    -I/home/nlsnightmare/Documents/C++/GUI/OpenGL  -std=c++1z -g   -o CMakeFiles/nls-engine.dir/src/physics/PhysicsEngine.o -c /home/nlsnightmare/Documents/C++/GUI/OpenGL/src/physics/PhysicsEngine.cpp",
+  "file": "/home/nlsnightmare/Documents/C++/GUI/OpenGL/src/physics/PhysicsEngine.cpp"
+},
+{
+  "directory": "/home/nlsnightmare/Documents/C++/GUI/OpenGL",
+  "command": "/usr/bin/clang++-5.0    -I/home/nlsnightmare/Documents/C++/GUI/OpenGL  -std=c++1z -g   -o CMakeFiles/nls-engine.dir/src/physics/BoxCollider2D.o -c /home/nlsnightmare/Documents/C++/GUI/OpenGL/src/physics/BoxCollider2D.cpp",
+  "file": "/home/nlsnightmare/Documents/C++/GUI/OpenGL/src/physics/BoxCollider2D.cpp"
+}
+]

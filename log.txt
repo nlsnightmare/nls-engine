@@ -1,0 +1,2827 @@
+new x: 5
+new x: 2
+new tick
+new tick
+new tick
+new tick
+new tick
+new tick
+new tick
+new tick
+new tick
+new tick
+new tick
+new tick
+new tick
+new tick
+new tick
+new tick
+new tick
+new tick
+new tick
+new tick
+new tick
+new tick
+new tick
+new tick
+new tick
+new tick
+new tick
+new tick
+new tick
+new tick
+new x: 4.93455
+new tick
+new x: 4.86511
+new tick
+new x: 4.79745
+new tick
+new x: 4.7339
+new tick
+new x: 4.66472
+new tick
+new x: 4.6007
+new tick
+new x: 4.5316
+new tick
+new x: 4.46501
+new tick
+new x: 4.40047
+new tick
+new x: 4.33352
+new tick
+new x: 4.26731
+new tick
+new x: 4.19849
+new tick
+new x: 4.1341
+new tick
+new x: 4.06504
+new tick
+new x: 4.00053
+new tick
+new x: 3.93164
+new tick
+new x: 3.858
+new tick
+new x: 3.79911
+new tick
+new x: 3.73352
+new tick
+new x: 3.6651
+new tick
+new x: 3.59947
+new tick
+new x: 3.53219
+new tick
+new x: 3.46421
+new tick
+new x: 3.40047
+new tick
+new x: 3.33237
+new tick
+new x: 3.26766
+new tick
+new x: 3.19918
+new tick
+new x: 3.1341
+new tick
+new x: 3.06416
+new tick
+new x: 2.99786
+new tick
+they collide!
+Anew x: 1.99893
+new x: 2.92934
+new tick
+they collide!
+Anew x: 1.96414
+new x: 2.86614
+new tick
+they collide!
+Anew x: 1.91514
+new x: 2.79628
+new tick
+they collide!
+Anew x: 1.85571
+new x: 2.73261
+new tick
+they collide!
+Anew x: 1.79416
+new x: 2.66385
+new tick
+they collide!
+Anew x: 1.729
+new x: 2.59969
+new tick
+they collide!
+Anew x: 1.66435
+new x: 2.52983
+new tick
+they collide!
+Anew x: 1.59709
+new x: 2.46619
+new tick
+they collide!
+Anew x: 1.53164
+new x: 2.3988
+new tick
+they collide!
+Anew x: 1.46522
+new x: 2.33122
+new tick
+they collide!
+Anew x: 1.39822
+new x: 2.25517
+new tick
+they collide!
+Anew x: 1.32669
+new x: 2.20036
+new tick
+they collide!
+Anew x: 1.26352
+new x: 2.13333
+new tick
+they collide!
+Anew x: 1.19843
+new x: 2.06308
+new tick
+they collide!
+Anew x: 1.13076
+new x: 1.99962
+new tick
+they collide!
+Anew x: 1.06519
+new x: 1.93288
+new tick
+they collide!
+Anew x: 0.999033
+new x: 1.86435
+new tick
+they collide!
+Anew x: 0.931693
+new x: 1.79734
+new tick
+they collide!
+Anew x: 0.864518
+new x: 1.73299
+new tick
+they collide!
+Anew x: 0.798755
+new x: 1.66511
+new tick
+they collide!
+Anew x: 0.731933
+new x: 1.59687
+new tick
+they collide!
+Anew x: 0.664403
+new x: 1.533
+new tick
+they collide!
+Anew x: 0.598702
+new x: 1.46704
+new tick
+they collide!
+Anew x: 0.532873
+new tick
+they collide!
+Anew x: 0.499958
+new tick
+they collide!
+Anew x: 0.483501
+new tick
+they collide!
+Anew x: 0.475272
+new tick
+they collide!
+Anew x: 0.471158
+new tick
+they collide!
+Anew x: 0.469101
+new tick
+they collide!
+Anew x: 0.468072
+new tick
+they collide!
+Anew x: 0.467558
+new tick
+they collide!
+Anew x: 0.467301
+new tick
+they collide!
+Anew x: 0.467172
+new tick
+they collide!
+Anew x: 0.467108
+new tick
+they collide!
+Anew x: 0.467076
+new tick
+they collide!
+Anew x: 0.46706
+new tick
+they collide!
+Anew x: 0.467052
+new tick
+they collide!
+Anew x: 0.467048
+new tick
+they collide!
+Anew x: 0.467046
+new tick
+they collide!
+Anew x: 0.467045
+new tick
+they collide!
+Anew x: 0.467044
+new tick
+new tick
+new tick
+new x: 1.46704
+new tick
+new x: 1.46704
+new tick
+new x: 1.46704
+new tick
+new x: 1.46704
+new tick
+new x: 1.46704
+new tick
+new x: 1.46704
+new tick
+new x: 1.46704
+new tick
+new x: 1.46704
+new tick
+new x: 1.46704
+new tick
+new x: 1.46704
+new tick
+new x: 1.46704
+new tick
+new x: 1.46704
+new tick
+new x: 1.46704
+new tick
+new x: 1.46704
+new tick
+new x: 1.46704
+new tick
+new x: 1.46704
+new tick
+new x: 1.46704
+new tick
+new x: 1.46704
+new tick
+new x: 1.46704
+new tick
+new x: 1.46704
+new tick
+new x: 1.46704
+new tick
+new x: 1.46704
+new x: 1.40031
+new tick
+new x: 1.40031
+new x: 1.33316
+new tick
+new x: 1.33316
+new x: 1.26411
+new tick
+new x: 1.26411
+new x: 1.19744
+new tick
+new x: 1.19744
+new x: 1.13318
+new tick
+new x: 1.13318
+new x: 1.06431
+new tick
+new x: 1.06431
+new x: 0.997015
+new tick
+new x: 0.997015
+new x: 0.933544
+new tick
+new x: 0.933544
+new x: 0.863979
+new tick
+new x: 0.863979
+new x: 0.799828
+new tick
+new x: 0.799828
+new x: 0.730909
+new tick
+new x: 0.730909
+new x: 0.667319
+new tick
+new x: 0.667319
+new x: 0.598454
+new tick
+new x: 0.533484
+new tick
+new x: 0.466583
+new tick
+new x: 0.39814
+new tick
+new x: 0.331684
+new tick
+new x: 0.266788
+new tick
+new x: 0.199516
+new tick
+new x: 0.133559
+new tick
+new x: 0.0647091
+new tick
+new x: -4.27514e-05
+new tick
+new x: -0.0683406
+new tick
+new x: -0.133477
+new tick
+new x: -0.200853
+new tick
+new x: -0.267045
+new tick
+new x: -0.332783
+new tick
+new x: -0.400625
+new tick
+new x: -0.467269
+new tick
+new x: -0.53254
+new tick
+new x: -0.53254
+new x: -0.602179
+new tick
+new x: -0.602179
+new x: -0.66599
+new tick
+new x: -0.66599
+new x: -0.735836
+new tick
+new x: -0.735836
+new x: -0.799996
+new tick
+new x: -0.799996
+new x: -0.866972
+new tick
+new x: -0.866972
+new x: -0.933101
+new tick
+new x: -0.933101
+new x: -0.999541
+new tick
+new x: -0.999541
+new x: -1.06654
+new tick
+new x: -1.06654
+new x: -1.13572
+new tick
+new x: -1.13572
+new x: -1.20233
+new tick
+new x: -1.20233
+new x: -1.26656
+new tick
+new x: -1.26656
+new x: -1.33572
+new tick
+new x: -1.33572
+new x: -1.39948
+new tick
+new x: -1.39948
+new tick
+new x: -1.39948
+new tick
+new x: -1.39948
+new tick
+new x: -1.39948
+new tick
+new x: -1.39948
+new tick
+new x: -1.39948
+new tick
+new x: -1.39948
+new tick
+new x: -1.39948
+new tick
+new x: -1.39948
+new tick
+new x: -1.39948
+new tick
+new x: -1.39948
+new tick
+new x: -1.39948
+new tick
+new x: -1.39948
+new tick
+new x: -1.39948
+new tick
+new x: -1.39948
+new tick
+new x: -1.39948
+new tick
+new x: -1.39948
+new tick
+new x: -1.39948
+new tick
+new x: -1.39948
+new tick
+new x: -1.39948
+new x: -1.3353
+new tick
+new x: -1.3353
+new x: -1.26573
+new tick
+new x: -1.19862
+new tick
+new x: -1.13498
+new tick
+new x: -1.06584
+new tick
+new x: -1.00146
+new tick
+new x: -0.932602
+new tick
+new x: -0.866165
+new tick
+new x: -0.80148
+new tick
+new x: -0.73278
+new tick
+new x: -0.668295
+new tick
+new x: -0.599602
+new tick
+new x: -0.532705
+new tick
+they collide!
+Anew x: 0.46717
+new x: -0.467277
+new tick
+they collide!
+Anew x: 0.499946
+new x: -0.397672
+new tick
+they collide!
+Anew x: 0.551137
+new x: -0.33404
+new tick
+they collide!
+Anew x: 0.608549
+new x: -0.267848
+new tick
+they collide!
+Anew x: 0.67035
+new x: -0.197908
+new tick
+they collide!
+Anew x: 0.736221
+new x: -0.133823
+new tick
+they collide!
+Anew x: 0.801199
+new x: -0.064525
+new tick
+they collide!
+Anew x: 0.868337
+new x: 0.00209132
+new tick
+they collide!
+Anew x: 0.935214
+new x: 0.0660077
+new tick
+they collide!
+Anew x: 1.00061
+new x: 0.133555
+new tick
+they collide!
+Anew x: 1.06708
+new x: 0.199256
+new tick
+they collide!
+Anew x: 1.13317
+new x: 0.26903
+new tick
+they collide!
+Anew x: 1.2011
+new x: 0.33294
+new tick
+they collide!
+Anew x: 1.26702
+new x: 0.402051
+new tick
+they collide!
+Anew x: 1.33454
+new x: 0.468001
+new tick
+they collide!
+Anew x: 1.40127
+new x: 0.532006
+new tick
+they collide!
+Anew x: 1.46664
+new x: 0.602138
+new tick
+they collide!
+Anew x: 1.53439
+new x: 0.665175
+new tick
+they collide!
+Anew x: 1.59978
+new x: 0.733883
+new tick
+they collide!
+Anew x: 1.66683
+new x: 0.79852
+new tick
+they collide!
+Anew x: 1.73268
+new x: 0.866152
+new tick
+they collide!
+Anew x: 1.79941
+new x: 0.932215
+new tick
+they collide!
+Anew x: 1.86581
+new x: 1.00085
+new tick
+they collide!
+Anew x: 1.93333
+new x: 1.06636
+new tick
+they collide!
+Anew x: 1.99985
+new x: 1.13338
+new tick
+they collide!
+Anew x: 2.06661
+new x: 1.19882
+new tick
+they collide!
+Anew x: 2.13272
+new x: 1.26541
+new tick
+they collide!
+Anew x: 2.19906
+new x: 1.33216
+new tick
+they collide!
+Anew x: 2.26561
+new x: 1.39898
+new tick
+they collide!
+Anew x: 2.33229
+new x: 1.46688
+new tick
+they collide!
+Anew x: 2.39959
+new x: 1.53537
+new tick
+they collide!
+Anew x: 2.46748
+new x: 1.59828
+new tick
+they collide!
+Anew x: 2.53288
+new x: 1.66927
+new tick
+they collide!
+Anew x: 2.60107
+new x: 1.73165
+new tick
+they collide!
+Anew x: 2.66636
+new x: 1.73165
+new x: 1.80104
+new tick
+they collide!
+Anew x: 2.7337
+new x: 1.80104
+new tick
+they collide!
+Anew x: 2.76737
+new x: 1.80104
+new tick
+they collide!
+Anew x: 2.78421
+new x: 1.80104
+new tick
+they collide!
+Anew x: 2.79263
+new x: 1.80104
+new tick
+they collide!
+Anew x: 2.79683
+new x: 1.80104
+new tick
+they collide!
+Anew x: 2.79894
+new x: 1.80104
+new tick
+they collide!
+Anew x: 2.79999
+new x: 1.80104
+new tick
+they collide!
+Anew x: 2.80052
+new x: 1.80104
+new tick
+they collide!
+Anew x: 2.80078
+new x: 1.80104
+new tick
+they collide!
+Anew x: 2.80091
+new x: 1.80104
+new tick
+they collide!
+Anew x: 2.80098
+new x: 1.80104
+new tick
+they collide!
+Anew x: 2.80101
+new x: 1.80104
+new tick
+they collide!
+Anew x: 2.80103
+new x: 1.80104
+new tick
+they collide!
+Anew x: 2.80103
+new x: 1.80104
+new tick
+new x: 1.80104
+new tick
+new x: 1.80104
+new tick
+new x: 1.80104
+new x: 1.86965
+new tick
+new x: 1.86965
+new x: 1.93672
+new tick
+new x: 2.00217
+new tick
+new x: 2.06902
+new tick
+new x: 2.13591
+new tick
+new x: 2.20075
+new tick
+new x: 2.26899
+new tick
+new x: 2.3358
+new tick
+new x: 2.40297
+new tick
+new x: 2.46915
+new tick
+new x: 2.5358
+new tick
+new x: 2.60074
+new tick
+new x: 2.66888
+new tick
+new x: 2.66888
+new x: 2.73484
+new tick
+new x: 2.73484
+new x: 2.8039
+new tick
+new x: 2.8039
+new x: 2.86755
+new tick
+new x: 2.86755
+new tick
+new x: 2.86755
+new tick
+they collide!
+Anew x: 2.80103
+new x: 2.86755
+new tick
+they collide!
+Anew x: 2.80103
+new x: 2.86755
+new tick
+they collide!
+Anew x: 2.80103
+new x: 2.86755
+new tick
+they collide!
+Anew x: 2.80103
+new x: 2.86755
+new tick
+they collide!
+Anew x: 2.80103
+new x: 2.86755
+new tick
+they collide!
+Anew x: 2.80103
+new x: 2.86755
+new tick
+they collide!
+Anew x: 2.80103
+new x: 2.86755
+new tick
+they collide!
+Anew x: 2.80103
+new x: 2.86755
+new tick
+they collide!
+Anew x: 2.80103
+new x: 2.86755
+new tick
+they collide!
+Anew x: 2.80103
+new x: 2.86755
+new tick
+they collide!
+Anew x: 2.80103
+new x: 2.86755
+new tick
+they collide!
+Anew x: 2.80103
+new x: 2.86755
+new tick
+they collide!
+Anew x: 2.80103
+new x: 2.86755
+new tick
+they collide!
+Anew x: 2.80103
+new x: 2.86755
+new tick
+they collide!
+Anew x: 2.80103
+new x: 2.86755
+new tick
+they collide!
+Anew x: 2.80103
+new x: 2.86755
+new tick
+they collide!
+Anew x: 2.80103
+new x: 2.86755
+new tick
+they collide!
+Anew x: 2.80103
+new x: 2.86755
+new tick
+they collide!
+Anew x: 2.80103
+new x: 2.86755
+new tick
+they collide!
+Anew x: 2.80103
+new x: 2.86755
+new tick
+they collide!
+Anew x: 2.80103
+new x: 2.86755
+new tick
+they collide!
+Anew x: 2.80103
+new x: 2.86755
+new tick
+they collide!
+Anew x: 2.80103
+new x: 2.80108
+new tick
+they collide!
+Anew x: 2.80103
+new x: 2.73246
+new tick
+they collide!
+Anew x: 2.80103
+new x: 2.65602
+new tick
+they collide!
+Anew x: 2.80103
+new x: 2.59823
+new tick
+they collide!
+Anew x: 2.80103
+new x: 2.53404
+new tick
+they collide!
+Anew x: 2.80103
+new x: 2.46617
+new tick
+they collide!
+Anew x: 2.80103
+new x: 2.4011
+new tick
+they collide!
+Anew x: 2.80103
+new x: 2.33136
+new tick
+they collide!
+Anew x: 2.80103
+new x: 2.26816
+new tick
+they collide!
+Anew x: 2.80103
+new x: 2.19938
+new tick
+they collide!
+Anew x: 2.80103
+new x: 2.13376
+new tick
+they collide!
+Anew x: 2.80103
+new x: 2.06718
+new tick
+they collide!
+Anew x: 2.80103
+new x: 1.99754
+new tick
+they collide!
+Anew x: 2.80103
+new x: 1.93396
+new tick
+they collide!
+Anew x: 2.80103
+new x: 1.86585
+new tick
+they collide!
+Anew x: 2.80103
+new x: 1.80059
+new tick
+new x: 1.73313
+new tick
+new x: 1.66868
+new tick
+new x: 1.5997
+new tick
+new x: 1.53291
+new tick
+new x: 1.53291
+new x: 1.46767
+new tick
+new x: 1.46767
+new x: 1.3995
+new tick
+new x: 1.3995
+new x: 1.33344
+new tick
+new x: 1.33344
+new tick
+new x: 1.33344
+new tick
+new x: 1.33344
+new tick
+new x: 1.33344
+new tick
+new x: 1.33344
+new tick
+new x: 1.33344
+new tick
+new x: 1.33344
+new tick
+new x: 1.33344
+new tick
+new x: 1.33344
+new tick
+new x: 1.33344
+new tick
+new x: 1.33344
+new tick
+new x: 1.33344
+new tick
+new x: 1.33344
+new tick
+new x: 1.33344
+new x: 1.39873
+new tick
+new x: 1.39873
+new x: 1.46515
+new tick
+new x: 1.46515
+new x: 1.53243
+new tick
+new x: 1.53243
+new x: 1.60039
+new tick
+new x: 1.66726
+new tick
+new x: 1.73325
+new tick
+new x: 1.79797
+new tick
+new x: 1.86695
+new tick
+they collide!
+Anew x: 2.83399
+new x: 1.93219
+new tick
+they collide!
+Anew x: 2.88309
+new x: 2.0016
+new tick
+they collide!
+Anew x: 2.94234
+new x: 2.06551
+new tick
+they collide!
+Anew x: 3.00393
+new x: 2.13492
+new tick
+they collide!
+Anew x: 3.06943
+new x: 2.19865
+new tick
+they collide!
+Anew x: 3.13404
+new x: 2.26622
+new tick
+they collide!
+Anew x: 3.20013
+new x: 2.3326
+new tick
+they collide!
+Anew x: 3.26636
+new x: 2.40256
+new tick
+they collide!
+Anew x: 3.33446
+new x: 2.46584
+new tick
+they collide!
+Anew x: 3.40015
+new x: 2.53532
+new tick
+they collide!
+Anew x: 3.46774
+new x: 2.59912
+new tick
+they collide!
+Anew x: 3.53343
+new x: 2.66602
+new tick
+they collide!
+Anew x: 3.59972
+new x: 2.73529
+new tick
+they collide!
+Anew x: 3.66751
+new x: 2.80221
+new tick
+they collide!
+Anew x: 3.73486
+new x: 2.80221
+new tick
+they collide!
+Anew x: 3.76853
+new x: 2.80221
+new tick
+they collide!
+Anew x: 3.78537
+new x: 2.80221
+new tick
+they collide!
+Anew x: 3.79379
+new x: 2.80221
+new tick
+they collide!
+Anew x: 3.798
+new x: 2.80221
+new tick
+they collide!
+Anew x: 3.8001
+new x: 2.80221
+new tick
+they collide!
+Anew x: 3.80116
+new x: 2.80221
+new tick
+they collide!
+Anew x: 3.80168
+new x: 2.80221
+new tick
+they collide!
+Anew x: 3.80195
+new x: 2.80221
+new tick
+they collide!
+Anew x: 3.80208
+new x: 2.80221
+new tick
+new x: 2.80221
+new tick
+new x: 2.80221
+new tick
+new x: 2.80221
+new x: 2.86875
+new tick
+new x: 2.86875
+new x: 2.93338
+new tick
+new x: 2.93338
+new x: 3.00003
+new tick
+new x: 3.00003
+new x: 3.06665
+new tick
+new x: 3.06665
+new x: 3.1336
+new tick
+new x: 3.20001
+new tick
+new x: 3.26685
+new tick
+new x: 3.33311
+new tick
+new x: 3.40185
+new tick
+new x: 3.46642
+new tick
+new x: 3.53513
+new tick
+new x: 3.59952
+new tick
+new x: 3.59952
+new x: 3.66782
+new tick
+new x: 3.66782
+new x: 3.73333
+new tick
+new x: 3.73333
+new tick
+new x: 3.73333
+new tick
+new x: 3.73333
+new tick
+new x: 3.73333
+new tick
+new x: 3.73333
+new tick
+they collide!
+Anew x: 3.80208
+new x: 3.73333
+new tick
+they collide!
+Anew x: 3.80208
+new x: 3.73333
+new tick
+they collide!
+Anew x: 3.80208
+new x: 3.73333
+new tick
+they collide!
+Anew x: 3.80208
+new x: 3.73333
+new tick
+they collide!
+Anew x: 3.80208
+new x: 3.73333
+new tick
+they collide!
+Anew x: 3.80208
+new x: 3.73333
+new tick
+they collide!
+Anew x: 3.80208
+new x: 3.73333
+new tick
+they collide!
+Anew x: 3.80208
+new x: 3.73333
+new tick
+they collide!
+Anew x: 3.80208
+new x: 3.73333
+new tick
+they collide!
+Anew x: 3.80208
+new x: 3.73333
+new tick
+they collide!
+Anew x: 3.80208
+new x: 3.73333
+new tick
+they collide!
+Anew x: 3.80208
+new x: 3.73333
+new tick
+they collide!
+Anew x: 3.80208
+new x: 3.73333
+new tick
+they collide!
+Anew x: 3.80208
+new x: 3.73333
+new tick
+they collide!
+Anew x: 3.80208
+new x: 3.73333
+new tick
+they collide!
+Anew x: 3.80208
+new x: 3.73333
+new tick
+they collide!
+Anew x: 3.80208
+new x: 3.73333
+new tick
+they collide!
+Anew x: 3.80208
+new x: 3.73333
+new tick
+they collide!
+Anew x: 3.80208
+new x: 3.73333
+new tick
+they collide!
+Anew x: 3.80208
+new x: 3.73333
+new tick
+they collide!
+Anew x: 3.80208
+new x: 3.73333
+new tick
+they collide!
+Anew x: 3.80208
+new x: 3.73333
+new tick
+they collide!
+Anew x: 3.80208
+new x: 3.73333
+new x: 3.80205
+new tick
+they collide!
+Anew x: 3.80208
+new x: 3.80205
+new x: 3.86548
+new tick
+they collide!
+Anew x: 3.80208
+new x: 3.93363
+new tick
+they collide!
+Anew x: 3.80208
+new x: 3.99835
+new tick
+they collide!
+Anew x: 3.80208
+new x: 4.06695
+new tick
+they collide!
+Anew x: 3.80208
+new x: 4.13238
+new tick
+they collide!
+Anew x: 3.80208
+new x: 4.20027
+new tick
+they collide!
+Anew x: 3.80208
+new x: 4.26768
+new tick
+they collide!
+Anew x: 3.80208
+new x: 4.3337
+new tick
+they collide!
+Anew x: 3.80208
+new x: 4.39806
+new tick
+they collide!
+Anew x: 3.80208
+new x: 4.46677
+new tick
+they collide!
+Anew x: 3.80208
+new x: 4.53424
+new tick
+they collide!
+Anew x: 3.80208
+new x: 4.53424
+new x: 4.60099
+new tick
+they collide!
+Anew x: 3.80208
+new x: 4.60099
+new x: 4.6658
+new tick
+they collide!
+Anew x: 3.80208
+new x: 4.6658
+new x: 4.73645
+new tick
+they collide!
+Anew x: 3.76926
+new x: 4.73645
+new x: 4.79813
+new tick
+new x: 4.79813
+new x: 4.86654
+new tick
+new x: 4.86654
+new tick
+new x: 4.86654
+new tick
+new x: 4.86654
+new tick
+new x: 4.86654
+new tick
+new x: 4.86654
+new tick
+new x: 4.86654
+new tick
+new x: 4.86654
+new tick
+new x: 4.86654
+new tick
+new x: 4.86654
+new tick
+new x: 4.86654
+new tick
+new x: 4.86654
+new tick
+new x: 4.80181
+new tick
+new x: 4.73555
+new tick
+they collide!
+Anew x: 3.75241
+new x: 4.6677
+new tick
+they collide!
+Anew x: 3.71005
+new x: 4.59921
+new tick
+they collide!
+Anew x: 3.65463
+new x: 4.53377
+new tick
+they collide!
+Anew x: 3.5942
+new x: 4.46875
+new tick
+they collide!
+Anew x: 3.53147
+new x: 4.40155
+new tick
+they collide!
+Anew x: 3.46651
+new x: 4.33397
+new tick
+they collide!
+Anew x: 3.40024
+new x: 4.26579
+new tick
+they collide!
+Anew x: 3.33302
+new x: 4.20071
+new tick
+they collide!
+Anew x: 3.26687
+new x: 4.13455
+new tick
+they collide!
+Anew x: 3.20071
+new x: 4.06872
+new tick
+they collide!
+Anew x: 3.13472
+new x: 3.99922
+new tick
+they collide!
+Anew x: 3.06697
+new x: 3.93477
+new tick
+they collide!
+Anew x: 3.00087
+new x: 3.86781
+new tick
+they collide!
+Anew x: 2.93434
+new x: 3.79953
+new tick
+they collide!
+Anew x: 2.86694
+new x: 3.7335
+new tick
+they collide!
+Anew x: 2.80022
+new x: 3.66824
+new tick
+they collide!
+Anew x: 2.73423
+new x: 3.60081
+new tick
+they collide!
+Anew x: 2.66752
+new x: 3.53266
+new tick
+they collide!
+Anew x: 2.60009
+new x: 3.46782
+new tick
+they collide!
+Anew x: 2.53396
+new x: 3.39969
+new tick
+they collide!
+Anew x: 2.46682
+new x: 3.33374
+new tick
+they collide!
+Anew x: 2.40028
+new x: 3.26745
+new tick
+they collide!
+Anew x: 2.33387
+new x: 3.20159
+new tick
+they collide!
+Anew x: 2.26773
+new x: 3.13363
+new tick
+they collide!
+Anew x: 2.20068
+new tick
+they collide!
+Anew x: 2.16715
+new tick
+they collide!
+Anew x: 2.15039
+new x: 3.13363
+new tick
+they collide!
+Anew x: 2.14201
+new x: 3.13363
+new tick
+they collide!
+Anew x: 2.13782
+new x: 3.13363
+new tick
+they collide!
+Anew x: 2.13572
+new x: 3.13363
+new tick
+they collide!
+Anew x: 2.13468
+new x: 3.13363
+new tick
+they collide!
+Anew x: 2.13415
+new x: 3.13363
+new tick
+they collide!
+Anew x: 2.13389
+new x: 3.13363
+new tick
+they collide!
+Anew x: 2.13376
+new x: 3.13363
+new tick
+they collide!
+Anew x: 2.13369
+new x: 3.13363
+new tick
+they collide!
+Anew x: 2.13366
+new x: 3.13363
+new tick
+they collide!
+Anew x: 2.13364
+new x: 3.13363
+new tick
+they collide!
+Anew x: 2.13364
+new x: 3.13363
+new tick
+they collide!
+Anew x: 2.13363
+new x: 3.13363
+new tick
+they collide!
+Anew x: 2.13363
+new x: 3.13363
+new tick
+they collide!
+Anew x: 2.13363
+new x: 3.13363
+new tick
+new x: 3.13363
+new tick
+new x: 3.13363
+new tick
+new x: 3.13363
+new tick
+new x: 3.13363
+new x: 3.06509
+new tick
+new x: 3.06509
+new x: 3.00046
+new tick
+new x: 3.00046
+new x: 2.93241
+new tick
+new x: 2.86626
+new tick
+new x: 2.79921
+new tick
+new x: 2.73081
+new tick
+new x: 2.66631
+new tick
+new x: 2.59756
+new tick
+new x: 2.53149
+new tick
+new x: 2.46628
+new tick
+new x: 2.39871
+new tick
+new x: 2.33268
+new tick
+new x: 2.33268
+new x: 2.26657
+new tick
+new x: 2.26657
+new x: 2.19909
+new tick
+new x: 2.19909
+new tick
+new x: 2.19909
+new tick
+new x: 2.19909
+new tick
+new x: 2.19909
+new tick
+new x: 2.19909
+new tick
+they collide!
+Anew x: 2.13363
+new x: 2.19909
+new tick
+they collide!
+Anew x: 2.13363
+new x: 2.19909
+new tick
+they collide!
+Anew x: 2.13363
+new x: 2.19909
+new tick
+they collide!
+Anew x: 2.13363
+new x: 2.19909
+new tick
+they collide!
+Anew x: 2.13363
+new x: 2.19909
+new tick
+they collide!
+Anew x: 2.13363
+new x: 2.19909
+new tick
+they collide!
+Anew x: 2.13363
+new x: 2.19909
+new tick
+they collide!
+Anew x: 2.13363
+new x: 2.19909
+new tick
+they collide!
+Anew x: 2.13363
+new x: 2.19909
+new tick
+they collide!
+Anew x: 2.13363
+new x: 2.19909
+new tick
+they collide!
+Anew x: 2.13363
+new x: 2.19909
+new tick
+they collide!
+Anew x: 2.13363
+new x: 2.19909
+new tick
+they collide!
+Anew x: 2.13363
+new x: 2.19909
+new tick
+they collide!
+Anew x: 2.13363
+new x: 2.19909
+new tick
+they collide!
+Anew x: 2.13363
+new x: 2.19909
+new tick
+they collide!
+Anew x: 2.13363
+new tick
+they collide!
+Anew x: 2.13363
+new x: 2.13279
+new tick
+they collide!
+Anew x: 2.13363
+new x: 2.06398
+new tick
+they collide!
+Anew x: 2.13363
+new x: 1.99682
+new tick
+they collide!
+Anew x: 2.13363
+new x: 1.93303
+new tick
+they collide!
+Anew x: 2.13363
+new x: 1.86624
+new tick
+they collide!
+Anew x: 2.13363
+new x: 1.79955
+new tick
+they collide!
+Anew x: 2.13363
+new x: 1.73045
+new tick
+they collide!
+Anew x: 2.13363
+new x: 1.66637
+new tick
+they collide!
+Anew x: 2.13363
+new x: 1.59707
+new tick
+they collide!
+Anew x: 2.13363
+new x: 1.53025
+new tick
+they collide!
+Anew x: 2.13363
+new x: 1.46621
+new tick
+they collide!
+Anew x: 2.13363
+new x: 1.39923
+new tick
+they collide!
+Anew x: 2.13363
+new x: 1.33039
+new tick
+they collide!
+Anew x: 2.13363
+new x: 1.26434
+new tick
+they collide!
+Anew x: 2.13363
+new x: 1.1998
+new tick
+they collide!
+Anew x: 2.13363
+new x: 1.13035
+new tick
+new x: 1.06723
+new tick
+new x: 0.998188
+new tick
+new x: 0.998188
+new x: 0.933771
+new tick
+new x: 0.933771
+new x: 0.864551
+new tick
+new x: 0.864551
+new x: 0.798424
+new tick
+new x: 0.798424
+new x: 0.734773
+new tick
+new x: 0.734773
+new tick
+new x: 0.734773
+new tick
+new x: 0.734773
+new tick
+new x: 0.734773
+new tick
+new x: 0.734773
+new tick
+new x: 0.734773
+new tick
+new x: 0.734773
+new tick
+new x: 0.734773
+new tick
+new x: 0.734773
+new x: 0.803571
+new tick
+new x: 0.803571
+new x: 0.868121
+new tick
+new x: 0.868121
+new x: 0.937263
+new tick
+new x: 1.00426
+new tick
+new x: 1.06797
+new tick
+new x: 1.13512
+new tick
+they collide!
+Anew x: 2.13438
+new x: 1.20485
+new tick
+they collide!
+Anew x: 2.16961
+new x: 1.26856
+new tick
+they collide!
+Anew x: 2.21908
+new x: 1.33844
+new tick
+they collide!
+Anew x: 2.27876
+new x: 1.40167
+new tick
+they collide!
+Anew x: 2.34021
+new x: 1.46866
+new tick
+they collide!
+Anew x: 2.40444
+new x: 1.53576
+new tick
+they collide!
+Anew x: 2.4701
+new x: 1.60491
+new tick
+they collide!
+Anew x: 2.53751
+new x: 1.66862
+new tick
+they collide!
+Anew x: 2.60306
+new x: 1.73817
+new tick
+they collide!
+Anew x: 2.67062
+new x: 1.80197
+new tick
+they collide!
+Anew x: 2.73629
+new x: 1.8687
+new tick
+they collide!
+Anew x: 2.8025
+new x: 1.93583
+new tick
+they collide!
+Anew x: 2.86917
+new x: 2.00182
+new tick
+they collide!
+Anew x: 2.93549
+new x: 2.07149
+new tick
+they collide!
+Anew x: 3.00349
+new x: 2.13517
+new tick
+they collide!
+Anew x: 3.06933
+new x: 2.20258
+new tick
+they collide!
+Anew x: 3.13596
+new x: 2.26859
+new tick
+they collide!
+Anew x: 3.20227
+new x: 2.33892
+new tick
+they collide!
+Anew x: 3.2706
+new x: 2.40626
+new tick
+they collide!
+Anew x: 3.33843
+new x: 2.46858
+new tick
+they collide!
+Anew x: 3.4035
+new x: 2.5382
+new tick
+they collide!
+Anew x: 3.47085
+new x: 2.5382
+new x: 2.60119
+new tick
+they collide!
+Anew x: 3.53602
+new x: 2.60119
+new x: 2.67216
+new tick
+they collide!
+Anew x: 3.60409
+new x: 2.67216
+new x: 2.7356
+new tick
+they collide!
+Anew x: 3.66985
+new x: 2.7356
+new x: 2.80518
+new tick
+they collide!
+Anew x: 3.73751
+new x: 2.80518
+new x: 2.86864
+new tick
+they collide!
+Anew x: 3.80308
+new x: 2.86864
+new x: 2.93798
+new tick
+they collide!
+Anew x: 3.87053
+new x: 2.93798
+new x: 3.00159
+new tick
+they collide!
+Anew x: 3.93606
+new x: 3.00159
+new x: 3.07156
+new tick
+they collide!
+Anew x: 4.00381
+new x: 3.07156
+new x: 3.13836
+new tick
+they collide!
+Anew x: 4.07108
+new x: 3.13836
+new x: 3.2017
+new tick
+they collide!
+Anew x: 4.13639
+new x: 3.2017
+new x: 3.26815
+new tick
+they collide!
+Anew x: 4.20227
+new x: 3.33817
+new tick
+they collide!
+Anew x: 4.27022
+new x: 3.40514
+new tick
+they collide!
+Anew x: 4.33768
+new x: 3.46788
+new tick
+they collide!
+Anew x: 4.40278
+new x: 3.53784
+new tick
+they collide!
+Anew x: 4.47031
+new x: 3.6013
+new tick
+they collide!
+Anew x: 4.5358
+new x: 3.67082
+new tick
+they collide!
+Anew x: 4.60331
+new x: 3.73453
+new tick
+they collide!
+Anew x: 4.66892
+new x: 3.80449
+new tick
+they collide!
+Anew x: 4.7367
+new x: 3.86849
+new tick
+they collide!
+Anew x: 4.8026
+new x: 3.93859
+new tick
+they collide!
+Anew x: 4.87059
+new x: 4.00436
+new tick
+they collide!
+Anew x: 4.93748
+new x: 4.07089
+new tick
+they collide!
+Anew x: 5.00418
+new x: 4.13498
+new tick
+they collide!
+Anew x: 5.06958
+new x: 4.20291
+new tick
+they collide!
+Anew x: 5.13625
+new x: 4.27023
+new tick
+they collide!
+Anew x: 5.20324
+new x: 4.33472
+new tick
+they collide!
+Anew x: 5.26898
+new x: 4.40102
+new tick
+they collide!
+Anew x: 5.335
+new x: 4.46829
+new tick
+they collide!
+Anew x: 5.40165
+new x: 4.53695
+new tick
+they collide!
+Anew x: 5.4693
+new x: 4.60285
+new tick
+they collide!
+Anew x: 5.53607
+new x: 4.66889
+new tick
+they collide!
+Anew x: 5.60248
+new x: 4.73522
+new tick
+they collide!
+Anew x: 5.66885
+new x: 4.80188
+new tick
+they collide!
+Anew x: 5.73536
+new x: 4.86842
+new tick
+they collide!
+Anew x: 5.80189
+new x: 4.93871
+new tick
+they collide!
+Anew x: 5.8703
+new x: 5.00167
+new tick
+they collide!
+Anew x: 5.93599
+new x: 5.0684
+new tick
+they collide!
+Anew x: 6.0022
+new x: 5.13838
+new tick
+they collide!
+Anew x: 6.07029
+new x: 5.2017
+new tick
+they collide!
+Anew x: 6.13599
+new x: 5.27136
+new tick
+they collide!
+Anew x: 6.20368
+new x: 5.27136
+new x: 5.3348
+new tick
+they collide!
+Anew x: 6.26924
+new x: 5.3348
+new x: 5.40529
+new tick
+they collide!
+Anew x: 6.26924
+new x: 5.40529
+new x: 5.47203
+new tick
+they collide!
+Anew x: 6.26924
+new x: 5.47203
+new x: 5.53524
+new tick
+new x: 5.53524
+new x: 5.60181
+new tick
+new x: 5.60181
+new x: 5.66761
+new tick
+new x: 5.66761
+new x: 5.73689
+new tick
+new x: 5.73689
+new x: 5.80117
+new tick
+new x: 5.80117
+new x: 5.87028
+new tick
+new x: 5.87028
+new x: 5.93444
+new tick
+new x: 5.93444
+new x: 6.00111
+new tick
+new x: 6.00111
+new x: 6.06768
+new tick
+new x: 6.13699
+new tick
+new x: 6.20032
+new tick
+new x: 6.26993
+new tick
+new x: 6.33562
+new tick
+new x: 6.4009
+new tick
+new x: 6.46929
+new tick
+new x: 6.53563
+new tick
+new x: 6.53563
+new x: 6.60036
+new tick
+new x: 6.60036
+new x: 6.66737
+new tick
+new x: 6.66737
+new x: 6.73396
+new tick
+new x: 6.73396
+new x: 6.80059
+new tick
+new x: 6.80059
+new x: 6.86727
+new tick
+new x: 6.86727
+new x: 6.93629
+new tick
+new x: 6.93629
+new x: 7.00064
+new tick
+new x: 7.00064
+new x: 7.06969
+new tick
+new x: 7.06969
+new x: 7.13668
+new tick
+they collide!
+Anew x: 6.26924
+new x: 7.13668
+new x: 7.20119
+new tick
+they collide!
+Anew x: 6.26924
+new x: 7.20119
+new x: 7.27142
+new tick
+new x: 7.27142
+new x: 7.33386
+new tick
+new x: 7.33386
+new tick
+new x: 7.33386
+new tick
+new x: 7.33386
+new tick
+new x: 7.33386
+new tick
+new x: 7.33386
+new tick
+new x: 7.33386
+new tick
+new x: 7.33386
+new tick
+new x: 7.33386
+new tick
+new x: 7.33386
+new tick
+new x: 7.33386
+new tick
+new x: 7.33386
+new tick
+new x: 7.33386
+new tick
+new x: 7.33386
+new tick
+new x: 7.33386
+new tick
+new x: 7.33386
+new tick
+new x: 7.33386
+new tick
+new x: 7.33386
+new tick
+new x: 7.33386
+new tick
+new x: 7.33386
+new tick
+new x: 7.33386
+new tick
+new x: 7.33386
+new tick
+new x: 7.33386
+new x: 7.26555
+new tick
+they collide!
+Anew x: 6.26739
+new x: 7.26555
+new x: 7.19955
+new tick
+they collide!
+Anew x: 6.23347
+new x: 7.12955
+new tick
+they collide!
+Anew x: 6.18151
+new x: 7.06344
+new tick
+they collide!
+Anew x: 6.12247
+new x: 6.99985
+new tick
+they collide!
+Anew x: 6.06116
+new x: 6.92983
+new tick
+they collide!
+Anew x: 5.9955
+new x: 6.86653
+new tick
+they collide!
+Anew x: 5.93101
+new x: 6.79581
+new tick
+they collide!
+Anew x: 5.86341
+new x: 6.7333
+new tick
+they collide!
+Anew x: 5.79835
+new x: 6.66315
+new tick
+they collide!
+Anew x: 5.73075
+new x: 6.59689
+new tick
+they collide!
+Anew x: 5.66382
+new x: 6.5333
+new tick
+they collide!
+Anew x: 5.59856
+new x: 6.46445
+new tick
+they collide!
+Anew x: 5.5315
+new x: 6.3993
+new tick
+they collide!
+Anew x: 5.4654
+new x: 6.33235
+new tick
+they collide!
+Anew x: 5.39887
+new x: 6.26762
+new tick
+they collide!
+Anew x: 5.33325
+new x: 6.19941
+new tick
+they collide!
+Anew x: 5.26633
+new x: 6.13266
+new tick
+they collide!
+Anew x: 5.1995
+new x: 6.06564
+new tick
+they collide!
+Anew x: 5.13257
+new x: 6.00051
+new tick
+they collide!
+Anew x: 5.06654
+new x: 5.93234
+new tick
+they collide!
+Anew x: 4.99944
+new x: 5.86696
+new tick
+they collide!
+Anew x: 4.9332
+new x: 5.8004
+new tick
+they collide!
+Anew x: 4.8668
+new x: 5.8004
+new x: 5.73356
+new tick
+they collide!
+Anew x: 4.80018
+new x: 5.73356
+new tick
+they collide!
+Anew x: 4.76687
+new x: 5.73356
+new tick
+they collide!
+Anew x: 4.75021
+new x: 5.73356
+new tick
+they collide!
+Anew x: 4.74189
+new x: 5.73356
+new tick
+new x: 5.73356
+new tick
+new x: 5.73356
+new tick
+new x: 5.73356
+new tick
+new x: 5.73356
+new tick
+new x: 5.73356
+new tick
+new x: 5.73356
+new x: 5.66453
+new tick
+new x: 5.66453
+new x: 5.60215
+new tick
+new x: 5.60215
+new x: 5.53242
+new tick
+new x: 5.46926
+new tick
+new x: 5.40005
+new tick
+new x: 5.33584
+new tick
+new x: 5.26688
+new tick
+new x: 5.20315
+new tick
+new x: 5.13508
+new tick
+new x: 5.06882
+new tick
+new x: 5.00035
+new tick
+new x: 4.93586
+new tick
+new x: 4.93586
+new x: 4.86717
+new tick
+new x: 4.86717
+new x: 4.80207
+new tick
+new x: 4.80207
+new x: 4.73562
+new tick
+new x: 4.73562
+new x: 4.66719
+new tick
+new x: 4.66719
+new tick
+new x: 4.66719
+new tick
+new x: 4.66719
+new tick
+new x: 4.66719
+new tick
+new x: 4.66719
+new tick
+they collide!
+Anew x: 4.74189
+new x: 4.66719
+new tick
+they collide!
+Anew x: 4.74189
+new x: 4.66719
+new tick
+they collide!
+Anew x: 4.74189
+new x: 4.66719
+new tick
+they collide!
+Anew x: 4.74189
+new x: 4.66719
+new tick
+they collide!
+Anew x: 4.74189
+new x: 4.66719
+new tick
+they collide!
+Anew x: 4.74189
+new x: 4.66719
+new tick
+they collide!
+Anew x: 4.74189
+new x: 4.66719
+new tick
+they collide!
+Anew x: 4.74189
+new x: 4.66719
+new tick
+they collide!
+Anew x: 4.74189
+new x: 4.66719
+new tick
+they collide!
+Anew x: 4.74189
+new x: 4.66719
+new tick
+they collide!
+Anew x: 4.74189
+new x: 4.66719
+new tick
+they collide!
+Anew x: 4.74189
+new tick
+they collide!
+Anew x: 4.74189
+new x: 4.6006
+new tick
+they collide!
+Anew x: 4.74189
+new x: 4.5341
+new tick
+they collide!
+Anew x: 4.74189
+new x: 4.46468
+new tick
+they collide!
+Anew x: 4.74189
+new x: 4.39777
+new tick
+they collide!
+Anew x: 4.74189
+new x: 4.33399
+new tick
+they collide!
+Anew x: 4.74189
+new x: 4.26718
+new tick
+they collide!
+Anew x: 4.74189
+new x: 4.19986
+new tick
+they collide!
+Anew x: 4.74189
+new x: 4.13131
+new tick
+they collide!
+Anew x: 4.74189
+new x: 4.06707
+new tick
+they collide!
+Anew x: 4.74189
+new x: 4.00049
+new tick
+they collide!
+Anew x: 4.74189
+new x: 3.9335
+new tick
+they collide!
+Anew x: 4.74189
+new x: 3.86717
+new tick
+they collide!
+Anew x: 4.74189
+new x: 3.79834
+new tick
+they collide!
+Anew x: 4.74189
+new x: 3.79834
+new x: 3.73389
+new tick
+new x: 3.73389
+new x: 3.66797
+new tick
+new x: 3.66797
+new x: 3.59984
+new tick
+new x: 3.59984
+new x: 3.53223
+new tick
+new x: 3.53223
+new x: 3.46618
+new tick
+new x: 3.46618
+new x: 3.40045
+new tick
+new x: 3.40045
+new tick
+new x: 3.40045
+new tick
+new x: 3.40045
+new tick
+new x: 3.40045
+new tick
+new x: 3.40045
+new tick
+new x: 3.40045
+new tick
+new x: 3.40045
+new tick
+new x: 3.40045
+new tick
+new x: 3.40045
+new tick
+new x: 3.40045
+new x: 3.46795
+new tick
+new x: 3.46795
+new x: 3.53362
+new tick
+new x: 3.53362
+new x: 3.60366
+new tick
+new x: 3.60366
+new x: 3.66785
+new tick
+new x: 3.73504
+new tick
+new x: 3.80196
+new tick
+they collide!
+Anew x: 4.77192
+new x: 3.86833
+new tick
+they collide!
+Anew x: 4.82013
+new x: 3.93651
+new tick
+they collide!
+Anew x: 4.87832
+new x: 4.00467
+new tick
+they collide!
+Anew x: 4.94149
+new x: 4.06735
+new tick
+they collide!
+Anew x: 5.00442
+new x: 4.13596
+new tick
+they collide!
+Anew x: 5.07019
+new x: 4.20096
+new tick
+they collide!
+Anew x: 5.13558
+new x: 4.26906
+new tick
+they collide!
+Anew x: 5.20232
+new x: 4.3373
+new tick
+they collide!
+Anew x: 5.26981
+new x: 4.40353
+new tick
+they collide!
+Anew x: 5.33667
+new x: 4.46884
+new tick
+they collide!
+Anew x: 5.40275
+new x: 4.53453
+new tick
+they collide!
+Anew x: 5.46864
+new x: 4.60226
+new tick
+they collide!
+Anew x: 5.53545
+new x: 4.66979
+new tick
+they collide!
+Anew x: 5.60262
+new x: 4.73843
+new tick
+they collide!
+Anew x: 5.67053
+new x: 4.80835
+new tick
+they collide!
+Anew x: 5.73944
+new x: 4.86931
+new tick
+they collide!
+Anew x: 5.80438
+new x: 4.94186
+new tick
+they collide!
+Anew x: 5.87312
+new x: 5.00256
+new tick
+they collide!
+Anew x: 5.93784
+new x: 5.06784
+new tick
+they collide!
+Anew x: 6.00284
+new x: 5.13469
+new tick
+they collide!
+Anew x: 6.06876
+new x: 5.20416
+new tick
+they collide!
+Anew x: 6.13646
+new x: 5.26778
+new tick
+they collide!
+Anew x: 6.20212
+new x: 5.33728
+new tick
+they collide!
+Anew x: 6.2697
+new x: 5.33728
+new x: 5.40117
+new tick
+they collide!
+Anew x: 6.33543
+new x: 5.40117
+new x: 5.47139
+new tick
+they collide!
+Anew x: 6.40341
+new x: 5.47139
+new x: 5.5346
+new tick
+they collide!
+Anew x: 6.46901
+new x: 5.5346
+new x: 5.60441
+new tick
+they collide!
+Anew x: 6.53671
+new x: 5.60441
+new x: 5.66785
+new tick
+they collide!
+Anew x: 6.60228
+new x: 5.66785
+new x: 5.73782
+new tick
+they collide!
+Anew x: 6.67005
+new x: 5.73782
+new x: 5.8047
+new tick
+they collide!
+Anew x: 6.73738
+new x: 5.8047
+new x: 5.86798
+new tick
+they collide!
+Anew x: 6.80268
+new x: 5.86798
+new x: 5.93826
+new tick
+they collide!
+Anew x: 6.80268
+new x: 5.93826
+new x: 6.00184
+new tick
+they collide!
+Anew x: 6.80268
+new x: 6.00184
+new x: 6.07123
+new tick
+new x: 6.07123
+new x: 6.13618
+new tick
+new x: 6.20047
+new tick
+new x: 6.26793
+new tick
+new x: 6.33374
+new tick
+new x: 6.40295
+new tick
+new x: 6.46724
+new tick
+new x: 6.53642
+new tick
+new x: 6.60085
+new tick
+new x: 6.60085
+new x: 6.66741
+new tick
+new x: 6.66741
+new x: 6.73717
+new tick
+they collide!
+Anew x: 6.80268
+new x: 6.73717
+new x: 6.802
+new tick
+they collide!
+Anew x: 6.80268
+new x: 6.802
+new x: 6.86855
+new tick
+they collide!
+Anew x: 6.80268
+new x: 6.86855
+new x: 6.93833
+new tick
+they collide!
+Anew x: 6.80268
+new x: 6.93833
+new x: 7.00151
+new tick
+they collide!
+Anew x: 6.80268
+new x: 7.00151
+new x: 7.06882
+new tick
+they collide!
+Anew x: 6.80268
+new x: 7.06882
+new x: 7.13463
+new tick
+they collide!
+Anew x: 6.80268
+new x: 7.13463
+new x: 7.20479
+new tick
+they collide!
+Anew x: 6.80268
+new x: 7.20479
+new x: 7.26966
+new tick
+they collide!
+Anew x: 6.80268
+new x: 7.26966
+new tick
+they collide!
+Anew x: 6.80268
+new x: 7.26966
+new tick
+they collide!
+Anew x: 6.80268
+new x: 7.26966
+new tick
+they collide!
+Anew x: 6.80268
+new x: 7.26966
+new tick
+they collide!
+Anew x: 6.80268
+new x: 7.26966
+new tick
+they collide!
+Anew x: 6.80268
+new x: 7.26966
+new tick
+they collide!
+Anew x: 6.80268
+new x: 7.26966
+new tick
+they collide!
+Anew x: 6.80268
+new x: 7.26966
+new tick
+they collide!
+Anew x: 6.80268
+new x: 7.26966
+new tick
+they collide!
+Anew x: 6.80268
+new x: 7.26966
+new tick
+they collide!
+Anew x: 6.80268
+new x: 7.26966
+new tick
+they collide!
+Anew x: 6.80268
+new x: 7.26966
+new tick
+they collide!
+Anew x: 6.80268
+new x: 7.34188
+new tick
+they collide!
+Anew x: 6.80268
+new x: 7.4033
+new tick
+they collide!
+Anew x: 6.80268
+new x: 7.47017
+new tick
+they collide!
+Anew x: 6.80268
+new x: 7.53606
+new tick
+they collide!
+Anew x: 6.80268
+new x: 7.60533
+new tick
+they collide!
+Anew x: 6.80268
+new x: 7.66968
+new tick
+they collide!
+Anew x: 6.80268
+new x: 7.73637
+new tick
+they collide!
+Anew x: 6.80268
+new x: 7.73637
+new x: 7.8036
+new tick
+new x: 7.8036
+new x: 7.87074
+new tick
+new x: 7.87074
+new x: 7.93746
+new tick
+new x: 7.93746
+new x: 8.00382
+new tick
+new x: 8.00382
+new x: 8.07203
+new tick
+new x: 8.07203
+new x: 8.13702
+new tick
+new x: 8.13702
+new x: 8.20231
+new tick
+new x: 8.20231
+new x: 8.27093
+new tick
+new x: 8.27093
+new x: 8.33593
+new tick
+new x: 8.33593
+new x: 8.40306
+new tick
+new x: 8.40306
+new x: 8.33695
+new tick
+new x: 8.33695
+new x: 8.2702
+new tick
+new x: 8.20358
+new tick
+new x: 8.13484
+new tick
+new x: 8.07079
+new tick
+new x: 8.00168
+new tick
+new x: 8.00168
+new x: 7.93734
+new tick
+new x: 7.87003
+new tick
+new x: 7.80382
+new tick
+new x: 7.73494
+new tick
+they collide!
+Anew x: 6.76881
+new x: 7.66557
+new tick
+they collide!
+Anew x: 6.71719
+new x: 7.60302
+new tick
+they collide!
+Anew x: 6.6601
+new x: 7.53346
+new tick
+they collide!
+Anew x: 6.59678
+new x: 7.46982
+new tick
+they collide!
+Anew x: 6.5333
+new x: 7.40061
+new tick
+they collide!
+Anew x: 6.46696
+new x: 7.33635
+new tick
+they collide!
+Anew x: 6.40165
+new x: 7.26651
+new tick
+they collide!
+Anew x: 6.33408
+new x: 7.20342
+new tick
+they collide!
+Anew x: 6.26875
+new x: 7.13337
+new tick
+they collide!
+Anew x: 6.20106
+new x: 7.06916
+new tick
+they collide!
+Anew x: 6.13511
+new x: 7.00006
+new tick
+they collide!
+Anew x: 6.06759
+new x: 6.93621
+new tick
+they collide!
+Anew x: 6.0019
+new x: 6.86892
+new tick
+they collide!
+Anew x: 5.93541
+new x: 6.80296
+new tick
+they collide!
+Anew x: 5.86918
+new x: 6.73302
+new tick
+they collide!
+Anew x: 5.8011
+new x: 6.67056
+new tick
+they collide!
+Anew x: 5.73583
+new x: 6.60225
+new tick
+they collide!
+Anew x: 5.66904
+new x: 6.53584
+new tick
+they collide!
+Anew x: 5.60244
+new x: 6.53584
+new x: 6.46996
+new tick
+they collide!
+Anew x: 5.5362
+new x: 6.46996
+new x: 6.39942
+new tick
+they collide!
+Anew x: 5.46781
+new x: 6.39942
+new tick
+they collide!
+Anew x: 5.43361
+new x: 6.39942
+new tick
+they collide!
+Anew x: 5.41651
+new x: 6.39942
+new tick
+they collide!
+Anew x: 5.40796
+new x: 6.39942
+new tick
+they collide!
+Anew x: 5.40369
+new x: 6.39942
+new tick
+they collide!
+Anew x: 5.40155
+new x: 6.39942
+new tick
+they collide!
+Anew x: 5.40048
+new x: 6.39942
+new tick
+they collide!
+Anew x: 5.39995
+new x: 6.39942
+new tick
+they collide!
+Anew x: 5.39968
+new tick
+they collide!
+Anew x: 5.39955
+new tick
+they collide!
+Anew x: 5.39948
+new tick
+they collide!
+Anew x: 5.39945
+new tick
+they collide!
+Anew x: 5.39943
