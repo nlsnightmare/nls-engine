@@ -1,3 +1,4 @@
+include("core/math")
 include("core/entity")
 include("core/input")
 
@@ -24,21 +25,11 @@ function Player()
 
    function self.on_collision(other,data)
       if math.abs(data.x) > math.abs(data.y) then
-	 if data.x > 0 then
-	    dx = ( 1-data.x ) /2
-	    self.translate(dx,0, 0)
-	 else
-	    dx = (-data.x-1)/2
-	    self.translate(dx,0,0)
-	 end
+	 dx = (math.sign(data.x) - data.x)/2
+	 self.translate(dx,0,0)
       else 
-	 if data.y > 0 then
-	    dy = (1-data.y)/2
-	    self.translate(0,dy,0)
-	 else
-	    dy = (-data.y-1)/2
-	    self.translate(0, dy,0)
-	 end
+	 dy = (math.sign(data.y)-data.y)/2
+	 self.translate(0, dy,0)
       end
    end
 
