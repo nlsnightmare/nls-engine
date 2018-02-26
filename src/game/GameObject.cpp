@@ -31,6 +31,8 @@ void GameObject::attach_collider(){
     float h = scale.y;
 
     m_col = new BoxCollider2D(x,y,w,h, this);
+    m_col->is_trigger = false;
+    // m_col->is_trigger = true;
     PhysicsEngine::register_collider(m_col);
 }
 

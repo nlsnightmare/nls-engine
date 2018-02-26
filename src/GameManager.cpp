@@ -67,30 +67,41 @@ int GameManager::get_entity_index(GameObject* ptr){
 }
 
 
-void GameManager::collision_event(GameObject* src, GameObject* dst, olliderData& dt){
-    glm::vec2 a;
+//TODO maybe use the CollisionData struct?
+void GameManager::trigger_event(GameObject* src, GameObject* dst, float x, float y){
     int srcID = src->get_ID();
     int dstID = dst->get_ID();
-    struct t {
-	int x;
-	int y;
-    };
-
-    t temp;
-    temp.x = 1;
-    temp.y = 2;
-    script.writeVariable("__temp0",std::unordered_map<std::string, int>{
-	    {"x", temp.x},
-	    {"y", temp.y}
+    script.writeVariable("__temp0",std::unordered_map<std::string, float>{
+	    {"x", x},
+	    {"y", y}
 	});
 
-    script.writeVariable("__tmp1", srcID);
-    script.writeVariable("__tmp2", dstID);
+    script.writeVariable("__srcid", srcID);
+    script.writeVariable("__dstid", dstID);
     script.executeCode(
-	"__tmp3 = find_entity(__tmp1);"
-	"__tmp4 = find_entity(__tmp2);"
-	"__tmp3.on_collision(__tmp4,__temp0);"
-	"__tmp4.on_collision(__tmp3, __temp0);"
+	"__src_e = find_entity(__srcid);"
+	"__dst_e = find_entity(__dstid);"
+	"__src_e.on_trigger(__dst_e,__temp0);"
+	// "__dst_e.on_trigger(__tmp3, __temp0);"
+	);
+}
+
+//TODO maybe use the CollisionData struct?
+//FIXME: this should be moved to physics engine
+void GameManager::collision_event(GameObject* src, GameObject* dst, float x, float y){
+    int srcID = src->get_ID();
+    int dstID = dst->get_ID();
+    script.writeVariable("__temp0",std::unordered_map<std::string, float>{
+	    {"x", x},
+	    {"y", y}
+	});
+
+    script.writeVariable("__srcid", srcID);
+    script.writeVariable("__dstid", dstID);
+    script.executeCode(
+	"__src_e = find_entity(__srcid);"
+	"__dst_e = find_entity(__dstid);"
+	"__src_e.on_collision(__dst_e,__temp0);"
 	);
 }
 

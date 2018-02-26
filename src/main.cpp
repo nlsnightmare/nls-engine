@@ -30,8 +30,11 @@ int main(int argc, char *argv[])
     Window main_window(width, height, fs, "Nls-Engine");
     GameManager gm;
     physics::PhysicsEngine pe;
-    pe.set_trigger([&gm](GameObject* p1, GameObject* p2) mutable {
-	    gm.collision_event(p1,p2);
+    pe.set_trigger([&gm](GameObject* p1, GameObject* p2,float x, float y) mutable {
+	    gm.trigger_event(p1,p2,x,y);
+	});
+    pe.set_collision([&gm](GameObject* p1, GameObject* p2,float x, float y) mutable {
+	    gm.collision_event(p1,p2,x,y);
 	});
 
     main_window.set_update_function([&](float dt) mutable {
