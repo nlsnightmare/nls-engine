@@ -18,6 +18,8 @@ void GameObject::set_lua_bindings(LuaContext& script){
     script.writeFunction("entity_set_scale",&GameObject_set_scale);
     script.writeFunction("entity_translate",&GameObject_translate);
     script.writeFunction("entity_get_position",&GameObject_get_position);
+    script.writeFunction("entity_set_mass",&GameObject_set_mass);
+    script.writeFunction("entity_get_mass",&GameObject_get_mass);
 }
 
 void GameObject::attach_collider(){
@@ -36,12 +38,6 @@ void GameObject::attach_collider(){
     PhysicsEngine::register_collider(m_col);
 }
 
-int  GameObject::get_ID(){
-    return ID;
-}
-void GameObject::set_ID(int val){
-    ID = val;
-}
 
 std::tuple<float, float, float> GameObject_get_position(GameObject* go){
     auto p = go->get_position();
@@ -70,4 +66,12 @@ std::tuple<float, float, float> GameObject_get_scale(GameObject* go){
 void GameObject_set_scale(GameObject* go, float x, float y, float z){
     go->m_col->resize(x,y);
     go->scale(x, y, z);
+}
+
+void GameObject_set_mass(GameObject* go, float val){
+    go->set_mass(val);
+}
+
+float GameObject_get_mass(GameObject* go){
+    return go->get_mass();
 }

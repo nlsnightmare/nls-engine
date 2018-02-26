@@ -99,6 +99,14 @@ function Entity(img, n1)
    end
 
 
+   function self.get_mass()
+      return entity_get_mass(self.ptr)
+   end
+
+   function self.set_mass(v)
+      entity_set_mass(self.ptr,v)
+   end
+
    function self.on_collision(other,data)
    end
    function self.on_trigger(other,data)

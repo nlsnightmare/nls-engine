@@ -14,8 +14,11 @@ public:
 
     std::string name;
 
-    int get_ID();
-    void set_ID(int val);
+    inline int get_ID() const { return m_ID; };
+    inline void set_ID(int val) { m_ID = val; };
+    inline float get_mass() const { return m_mass; };
+    inline void set_mass(float val) { m_mass = val; };
+    
 
     void update(float dt);
 
@@ -34,7 +37,8 @@ public:
 private:
     physics::BoxCollider2D* m_col;
 
-    int ID;
+    int m_ID;
+    float m_mass;
 };
 
 
@@ -47,3 +51,5 @@ std::tuple<float, float, float> GameObject_get_position(GameObject* go);
 
 std::tuple<float, float, float> GameObject_get_scale(GameObject* go);
 void GameObject_set_scale(GameObject* go, float x, float y, float z);
+void GameObject_set_mass(GameObject* go, float val);
+float GameObject_get_mass(GameObject* go);

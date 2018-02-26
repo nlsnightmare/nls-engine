@@ -3,7 +3,9 @@ include("core/entity")
 include("player")
 -- local e = Entity("box.png", "obstacle")
 local player = Player()
+player.set_mass(10)
 local e1 = Entity("box.png", "obstacle")
+e1.set_mass(2)
 -- e.set_pos(2,4,0)
 e1.set_pos(2,5,0)
 
@@ -16,7 +18,3 @@ function update(dt)
    end
 end
 
-local v = Vector2(1,1)
-local v2 = Vector2(1,2)
-a = v+v2
-print(a.x,a.y)
