@@ -15,6 +15,9 @@ CMakeFiles/nls-engine.dir/src/GameManager.o: src/GameManager.cpp
 CMakeFiles/nls-engine.dir/src/GameManager.o: src/GameManager.hpp
 CMakeFiles/nls-engine.dir/src/GameManager.o: src/Window.hpp
 
+CMakeFiles/nls-engine.dir/src/Log.o: src/Log.cpp
+CMakeFiles/nls-engine.dir/src/Log.o: src/Log.hpp
+
 CMakeFiles/nls-engine.dir/src/LuaScript.o: src/LuaScript.cpp
 CMakeFiles/nls-engine.dir/src/LuaScript.o: src/LuaScript.hpp
 
@@ -99,6 +102,7 @@ CMakeFiles/nls-engine.dir/src/main.o: src/./graphics/low_level/stb_image.h
 CMakeFiles/nls-engine.dir/src/main.o: src/./physics/BoxCollider2D.hpp
 CMakeFiles/nls-engine.dir/src/main.o: src/./physics/PhysicsEngine.hpp
 CMakeFiles/nls-engine.dir/src/main.o: src/GameManager.hpp
+CMakeFiles/nls-engine.dir/src/main.o: src/Log.hpp
 CMakeFiles/nls-engine.dir/src/main.o: src/Window.hpp
 CMakeFiles/nls-engine.dir/src/main.o: src/main.cpp
 

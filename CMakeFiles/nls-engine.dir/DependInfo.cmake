@@ -5,6 +5,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
   "/home/nlsnightmare/Documents/C++/GUI/OpenGL/src/GameManager.cpp" "/home/nlsnightmare/Documents/C++/GUI/OpenGL/CMakeFiles/nls-engine.dir/src/GameManager.o"
+  "/home/nlsnightmare/Documents/C++/GUI/OpenGL/src/Log.cpp" "/home/nlsnightmare/Documents/C++/GUI/OpenGL/CMakeFiles/nls-engine.dir/src/Log.o"
   "/home/nlsnightmare/Documents/C++/GUI/OpenGL/src/LuaScript.cpp" "/home/nlsnightmare/Documents/C++/GUI/OpenGL/CMakeFiles/nls-engine.dir/src/LuaScript.o"
   "/home/nlsnightmare/Documents/C++/GUI/OpenGL/src/Window.cpp" "/home/nlsnightmare/Documents/C++/GUI/OpenGL/CMakeFiles/nls-engine.dir/src/Window.o"
   "/home/nlsnightmare/Documents/C++/GUI/OpenGL/src/game/GameObject.cpp" "/home/nlsnightmare/Documents/C++/GUI/OpenGL/CMakeFiles/nls-engine.dir/src/game/GameObject.o"

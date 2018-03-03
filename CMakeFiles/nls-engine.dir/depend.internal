@@ -15,6 +15,9 @@ CMakeFiles/nls-engine.dir/src/GameManager.o
  /home/nlsnightmare/Documents/C++/GUI/OpenGL/src/GameManager.cpp
  /home/nlsnightmare/Documents/C++/GUI/OpenGL/src/GameManager.hpp
  /home/nlsnightmare/Documents/C++/GUI/OpenGL/src/Window.hpp
+CMakeFiles/nls-engine.dir/src/Log.o
+ /home/nlsnightmare/Documents/C++/GUI/OpenGL/src/Log.cpp
+ /home/nlsnightmare/Documents/C++/GUI/OpenGL/src/Log.hpp
 CMakeFiles/nls-engine.dir/src/LuaScript.o
  /home/nlsnightmare/Documents/C++/GUI/OpenGL/src/LuaScript.cpp
  /home/nlsnightmare/Documents/C++/GUI/OpenGL/src/LuaScript.hpp
@@ -100,6 +103,7 @@ CMakeFiles/nls-engine.dir/src/main.o
  /home/nlsnightmare/Documents/C++/GUI/OpenGL/src/./physics/BoxCollider2D.hpp
  /home/nlsnightmare/Documents/C++/GUI/OpenGL/src/./physics/PhysicsEngine.hpp
  /home/nlsnightmare/Documents/C++/GUI/OpenGL/src/GameManager.hpp
+ /home/nlsnightmare/Documents/C++/GUI/OpenGL/src/Log.hpp
  /home/nlsnightmare/Documents/C++/GUI/OpenGL/src/Window.hpp
  /home/nlsnightmare/Documents/C++/GUI/OpenGL/src/main.cpp
 CMakeFiles/nls-engine.dir/src/physics/BoxCollider2D.o

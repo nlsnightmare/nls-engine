@@ -7,6 +7,7 @@
 #include <glm/gtc/matrix_transform.hpp>
 #include <glm/gtc/type_ptr.hpp>
 
+#include "Log.hpp"
 #include "Window.hpp"
 #include "GameManager.hpp"
 #include "./physics/PhysicsEngine.hpp"
@@ -20,6 +21,10 @@
 int main(int argc, char *argv[]) 
 {
     stbi_set_flip_vertically_on_load(true);
+    logging::init();
+    log_message("test");
+
+    log_error("test");
 
     LuaContext lc;
     std::ifstream settings("settings.dat");
@@ -39,9 +44,9 @@ int main(int argc, char *argv[])
 
     main_window.set_update_function([&](float dt) mutable {
 	    graphics::SpriteRenderer::Render();
-	    gm.loop(dt);
-
 	    pe.tick(dt);
+
+	    gm.loop(dt);
 	});
     
     main_window.Update();

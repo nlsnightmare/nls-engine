@@ -14,6 +14,7 @@ add_executable(nls-engine ./src/main.cpp)
 add_library(nls-engine ./src/GameManager.cpp)
 add_library(nls-engine ./src/LuaScript.cpp)
 add_library(nls-engine ./src/Window.cpp)
+add_library(nls-engine ./src/Log.cpp)
 
 add_executable(nls-engine ./src/game/GameObject.cpp)
 add_executable(nls-engine ./src/game/GameObject.hpp)

@@ -139,6 +139,21 @@ src/GameManager.s:
 .PHONY : src/GameManager.s
 
 # target to build an object file
+src/Log.o:
+	$(MAKE) -f CMakeFiles/nls-engine.dir/build.make CMakeFiles/nls-engine.dir/src/Log.o
+.PHONY : src/Log.o
+
+# target to preprocess a source file
+src/Log.i:
+	$(MAKE) -f CMakeFiles/nls-engine.dir/build.make CMakeFiles/nls-engine.dir/src/Log.i
+.PHONY : src/Log.i
+
+# target to generate assembly for a file
+src/Log.s:
+	$(MAKE) -f CMakeFiles/nls-engine.dir/build.make CMakeFiles/nls-engine.dir/src/Log.s
+.PHONY : src/Log.s
+
+# target to build an object file
 src/LuaScript.o:
 	$(MAKE) -f CMakeFiles/nls-engine.dir/build.make CMakeFiles/nls-engine.dir/src/LuaScript.o
 .PHONY : src/LuaScript.o
@@ -375,6 +390,9 @@ help:
 	@echo "... src/GameManager.o"
 	@echo "... src/GameManager.i"
 	@echo "... src/GameManager.s"
+	@echo "... src/Log.o"
+	@echo "... src/Log.i"
+	@echo "... src/Log.s"
 	@echo "... src/LuaScript.o"
 	@echo "... src/LuaScript.i"
 	@echo "... src/LuaScript.s"

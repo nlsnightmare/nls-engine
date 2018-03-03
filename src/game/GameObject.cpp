@@ -11,6 +11,9 @@ GameObject::GameObject(std::string name, std::string s)
     attach_collider();
 }
 
+
+
+
 void GameObject::set_lua_bindings(LuaContext& script){
     script.writeFunction("entity_get_name",&GameObject_get_name);
     script.writeFunction("entity_set_position",&GameObject_set_position);
@@ -20,6 +23,8 @@ void GameObject::set_lua_bindings(LuaContext& script){
     script.writeFunction("entity_get_position",&GameObject_get_position);
     script.writeFunction("entity_set_mass",&GameObject_set_mass);
     script.writeFunction("entity_get_mass",&GameObject_get_mass);
+    script.writeFunction("entity_set_trigger",&GameObject_set_trigger);
+    script.writeFunction("entity_get_trigger",&GameObject_get_trigger);
 }
 
 void GameObject::attach_collider(){
@@ -74,4 +79,11 @@ void GameObject_set_mass(GameObject* go, float val){
 
 float GameObject_get_mass(GameObject* go){
     return go->get_mass();
+}
+
+void GameObject_set_trigger(GameObject* go, bool val){
+    go->get_collider()->is_trigger = true;
+}
+bool GameObject_get_trigger(GameObject* go){
+    return go->get_collider()->is_trigger;
 }

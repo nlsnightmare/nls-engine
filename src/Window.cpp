@@ -42,6 +42,7 @@ Window::Window(int width,int height, bool fullscreen, std::string title)
 
     glViewport(0, 0, m_width, m_height);
     glfwMakeContextCurrent(m_window);
+	glfwSwapInterval(0);
 
 
     // For some reason glewInit return gl error code 1280

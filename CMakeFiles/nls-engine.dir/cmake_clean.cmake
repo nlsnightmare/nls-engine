@@ -3,6 +3,7 @@ file(REMOVE_RECURSE
   "CMakeFiles/nls-engine.dir/src/GameManager.o"
   "CMakeFiles/nls-engine.dir/src/LuaScript.o"
   "CMakeFiles/nls-engine.dir/src/Window.o"
+  "CMakeFiles/nls-engine.dir/src/Log.o"
   "CMakeFiles/nls-engine.dir/src/game/GameObject.o"
   "CMakeFiles/nls-engine.dir/src/graphics/Camera.o"
   "CMakeFiles/nls-engine.dir/src/graphics/Sprite.o"

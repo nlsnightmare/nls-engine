@@ -4,6 +4,7 @@
 #include "Window.hpp"
 
 std::vector<GameObject *> GameManager::entities;
+std::vector<int> GameManager::entities_for_deletion;
 
 using namespace graphics;
 
@@ -19,6 +20,7 @@ GameManager::GameManager()
 }
 
 void GameManager::loop(float dt){
+	std::cout << entities.size() << std::endl;
     using namespace graphics;
     if (Window::get_key_down(GLFW_KEY_ESCAPE)) {
 	Window::instance->Close();
@@ -26,6 +28,9 @@ void GameManager::loop(float dt){
 
     if (update_func)
 	update_func(dt);
+
+
+    remove_entities();
 }
 
 
@@ -43,6 +48,7 @@ void GameManager::initialize_script(){
     script.writeFunction("new_entity",&GameManager::add_entity);
     script.writeFunction("entity_get_id",&GameManager::get_entity_index);
     script.writeFunction("__get_key",&Window::get_key_down);
+    script.writeFunction("entity_delete",&GameManager::add_entity_to_removal_queue);
 
     GameObject::set_lua_bindings(script);
     script.executeCode(src_code);
@@ -66,6 +72,25 @@ int GameManager::get_entity_index(GameObject* ptr){
     return -1;
 }
 
+void GameManager::add_entity_to_removal_queue(GameObject* go){
+    std::cout << "go: " << go << "\n";
+    int i = get_entity_index(go);
+    if (i != -1) {
+		entities_for_deletion.push_back(i);
+    }
+}
+
+void GameManager::remove_entities(){
+    std::cout << "removing " << entities_for_deletion.size() << std::endl;
+	for(auto i : entities_for_deletion){
+		std::cout << i << std::endl;
+		auto go = entities.at(i);
+		delete go;
+		entities.erase(entities.begin() + i);
+	}
+	entities_for_deletion.clear();
+}
+
 
 //TODO maybe use the CollisionData struct?
 void GameManager::trigger_event(GameObject* src, GameObject* dst, float x, float y){
@@ -81,8 +106,8 @@ void GameManager::trigger_event(GameObject* src, GameObject* dst, float x, float
     script.executeCode(
 	"__src_e = find_entity(__srcid);"
 	"__dst_e = find_entity(__dstid);"
-	"__src_e.on_trigger(__dst_e,__temp0);"
-	// "__dst_e.on_trigger(__tmp3, __temp0);"
+	"safe_call(__src_e,__dst_e,__src_e.on_trigger,__temp0)"
+	// "__src_e.on_trigger(__dst_e,__temp0);"
 	);
 }
 

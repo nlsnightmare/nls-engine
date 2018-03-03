@@ -23,7 +23,6 @@ public:
     void update(float dt);
 
     void attach_collider();
-    inline physics::BoxCollider2D* get_collider() const { return m_col; };
     static void set_lua_bindings(LuaContext& script);
 
 
@@ -54,6 +53,3 @@ std::tuple<float, float, float> GameObject_get_scale(GameObject* go);
 void GameObject_set_scale(GameObject* go, float x, float y, float z);
 void GameObject_set_mass(GameObject* go, float val);
 float GameObject_get_mass(GameObject* go);
-
-void GameObject_set_trigger(GameObject* go, bool val);
-bool GameObject_get_trigger(GameObject* go);

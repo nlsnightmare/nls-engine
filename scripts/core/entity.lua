@@ -19,6 +19,8 @@ end
 
 function Entity(img, n1)
    local self = {}
+   self.to_be_deleted = false;
+
    entities[#entities + 1] = self
    self.ptr = new_entity(img,n1)
    self.id = entity_get_id(self.ptr)
@@ -81,23 +83,11 @@ function Entity(img, n1)
    end
 
 
-
-   function self.intersects(other)
-      local x = self.position.x
-      local y = self.position.y
-      local w = self.scale.x
-      local h = self.scale.y
-
-      local ox = other.position.x
-      local oy = other.position.y
-      local ow = other.scale.x
-      local oh = other.scale.y
-
-      local int_x = x < ox + ow and x + w > ox
-      local int_y = y < oy + oh and y + w > oy
-      return int_x and int_y
+   function self.destroy()
+      self.to_be_deleted = true;
+      entity_delete(self.ptr)
    end
-
+   
 
    function self.get_mass()
       return entity_get_mass(self.ptr)
@@ -107,9 +97,22 @@ function Entity(img, n1)
       entity_set_mass(self.ptr,v)
    end
 
+   function self.set_trigger(v)
+      entity_set_trigger(self.ptr, v)
+   end
+   
+	 
+
    function self.on_collision(other,data)
+      if self.to_be_deleted then
+	 return
+      end
+
    end
    function self.on_trigger(other,data)
+      if self.to_be_deleted then
+	 return
+      end
    end
    
    

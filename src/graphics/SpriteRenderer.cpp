@@ -5,11 +5,6 @@
 using namespace graphics;
 std::unordered_map<int,std::vector<Sprite*>> SpriteRenderer::sprites;
 
-void SpriteRenderer::register_sprite(graphics::Sprite &s){
-    // static int i = 0;
-    // sprites.insert(std::make_pair(i, &s));
-    // i++;
-}
 
 void SpriteRenderer::register_sprite(graphics::Sprite* s){
     int text_id = s->get_texture().ID();
@@ -30,6 +25,22 @@ void SpriteRenderer::Render(){
 	t->Bind();
 	for (auto s : v.second) {
 	    s->Draw();
+	}
+    }
+}
+void SpriteRenderer::remove_sprite(Sprite* s){
+    std::cout << "i have to remove this sprite" << std::endl;
+    int text_id = s->get_texture().ID();
+    auto it = sprites.find(text_id);
+
+    if( it == sprites.end())
+	return;
+    else {
+	for(size_t i = 0; i < it->second.size(); i++){
+	    if(it->second[i] == s){
+		it->second.erase(it->second.begin() + i);
+		break;
+	    }
 	}
     }
 }

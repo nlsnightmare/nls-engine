@@ -153,9 +153,33 @@ CMakeFiles/nls-engine.dir/src/Window.o.provides: CMakeFiles/nls-engine.dir/src/W
 CMakeFiles/nls-engine.dir/src/Window.o.provides.build: CMakeFiles/nls-engine.dir/src/Window.o
 
 
+CMakeFiles/nls-engine.dir/src/Log.o: CMakeFiles/nls-engine.dir/flags.make
+CMakeFiles/nls-engine.dir/src/Log.o: src/Log.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/nlsnightmare/Documents/C++/GUI/OpenGL/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/nls-engine.dir/src/Log.o"
+	/usr/bin/clang++-5.0   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/nls-engine.dir/src/Log.o -c /home/nlsnightmare/Documents/C++/GUI/OpenGL/src/Log.cpp
+
+CMakeFiles/nls-engine.dir/src/Log.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/nls-engine.dir/src/Log.i"
+	/usr/bin/clang++-5.0  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/nlsnightmare/Documents/C++/GUI/OpenGL/src/Log.cpp > CMakeFiles/nls-engine.dir/src/Log.i
+
+CMakeFiles/nls-engine.dir/src/Log.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/nls-engine.dir/src/Log.s"
+	/usr/bin/clang++-5.0  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/nlsnightmare/Documents/C++/GUI/OpenGL/src/Log.cpp -o CMakeFiles/nls-engine.dir/src/Log.s
+
+CMakeFiles/nls-engine.dir/src/Log.o.requires:
+
+.PHONY : CMakeFiles/nls-engine.dir/src/Log.o.requires
+
+CMakeFiles/nls-engine.dir/src/Log.o.provides: CMakeFiles/nls-engine.dir/src/Log.o.requires
+	$(MAKE) -f CMakeFiles/nls-engine.dir/build.make CMakeFiles/nls-engine.dir/src/Log.o.provides.build
+.PHONY : CMakeFiles/nls-engine.dir/src/Log.o.provides
+
+CMakeFiles/nls-engine.dir/src/Log.o.provides.build: CMakeFiles/nls-engine.dir/src/Log.o
+
+
 CMakeFiles/nls-engine.dir/src/game/GameObject.o: CMakeFiles/nls-engine.dir/flags.make
 CMakeFiles/nls-engine.dir/src/game/GameObject.o: src/game/GameObject.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/nlsnightmare/Documents/C++/GUI/OpenGL/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/nls-engine.dir/src/game/GameObject.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/nlsnightmare/Documents/C++/GUI/OpenGL/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/nls-engine.dir/src/game/GameObject.o"
 	/usr/bin/clang++-5.0   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/nls-engine.dir/src/game/GameObject.o -c /home/nlsnightmare/Documents/C++/GUI/OpenGL/src/game/GameObject.cpp
 
 CMakeFiles/nls-engine.dir/src/game/GameObject.i: cmake_force
@@ -179,7 +203,7 @@ CMakeFiles/nls-engine.dir/src/game/GameObject.o.provides.build: CMakeFiles/nls-e
 
 CMakeFiles/nls-engine.dir/src/graphics/Camera.o: CMakeFiles/nls-engine.dir/flags.make
 CMakeFiles/nls-engine.dir/src/graphics/Camera.o: src/graphics/Camera.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/nlsnightmare/Documents/C++/GUI/OpenGL/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/nls-engine.dir/src/graphics/Camera.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/nlsnightmare/Documents/C++/GUI/OpenGL/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/nls-engine.dir/src/graphics/Camera.o"
 	/usr/bin/clang++-5.0   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/nls-engine.dir/src/graphics/Camera.o -c /home/nlsnightmare/Documents/C++/GUI/OpenGL/src/graphics/Camera.cpp
 
 CMakeFiles/nls-engine.dir/src/graphics/Camera.i: cmake_force
@@ -203,7 +227,7 @@ CMakeFiles/nls-engine.dir/src/graphics/Camera.o.provides.build: CMakeFiles/nls-e
 
 CMakeFiles/nls-engine.dir/src/graphics/Sprite.o: CMakeFiles/nls-engine.dir/flags.make
 CMakeFiles/nls-engine.dir/src/graphics/Sprite.o: src/graphics/Sprite.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/nlsnightmare/Documents/C++/GUI/OpenGL/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/nls-engine.dir/src/graphics/Sprite.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/nlsnightmare/Documents/C++/GUI/OpenGL/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/nls-engine.dir/src/graphics/Sprite.o"
 	/usr/bin/clang++-5.0   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/nls-engine.dir/src/graphics/Sprite.o -c /home/nlsnightmare/Documents/C++/GUI/OpenGL/src/graphics/Sprite.cpp
 
 CMakeFiles/nls-engine.dir/src/graphics/Sprite.i: cmake_force
@@ -227,7 +251,7 @@ CMakeFiles/nls-engine.dir/src/graphics/Sprite.o.provides.build: CMakeFiles/nls-e
 
 CMakeFiles/nls-engine.dir/src/graphics/SpriteRenderer.o: CMakeFiles/nls-engine.dir/flags.make
 CMakeFiles/nls-engine.dir/src/graphics/SpriteRenderer.o: src/graphics/SpriteRenderer.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/nlsnightmare/Documents/C++/GUI/OpenGL/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/nls-engine.dir/src/graphics/SpriteRenderer.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/nlsnightmare/Documents/C++/GUI/OpenGL/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object CMakeFiles/nls-engine.dir/src/graphics/SpriteRenderer.o"
 	/usr/bin/clang++-5.0   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/nls-engine.dir/src/graphics/SpriteRenderer.o -c /home/nlsnightmare/Documents/C++/GUI/OpenGL/src/graphics/SpriteRenderer.cpp
 
 CMakeFiles/nls-engine.dir/src/graphics/SpriteRenderer.i: cmake_force
@@ -251,7 +275,7 @@ CMakeFiles/nls-engine.dir/src/graphics/SpriteRenderer.o.provides.build: CMakeFil
 
 CMakeFiles/nls-engine.dir/src/graphics/low_level/ArrayBuffer.o: CMakeFiles/nls-engine.dir/flags.make
 CMakeFiles/nls-engine.dir/src/graphics/low_level/ArrayBuffer.o: src/graphics/low_level/ArrayBuffer.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/nlsnightmare/Documents/C++/GUI/OpenGL/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object CMakeFiles/nls-engine.dir/src/graphics/low_level/ArrayBuffer.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/nlsnightmare/Documents/C++/GUI/OpenGL/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object CMakeFiles/nls-engine.dir/src/graphics/low_level/ArrayBuffer.o"
 	/usr/bin/clang++-5.0   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/nls-engine.dir/src/graphics/low_level/ArrayBuffer.o -c /home/nlsnightmare/Documents/C++/GUI/OpenGL/src/graphics/low_level/ArrayBuffer.cpp
 
 CMakeFiles/nls-engine.dir/src/graphics/low_level/ArrayBuffer.i: cmake_force
@@ -275,7 +299,7 @@ CMakeFiles/nls-engine.dir/src/graphics/low_level/ArrayBuffer.o.provides.build: C
 
 CMakeFiles/nls-engine.dir/src/graphics/low_level/IndexBuffer.o: CMakeFiles/nls-engine.dir/flags.make
 CMakeFiles/nls-engine.dir/src/graphics/low_level/IndexBuffer.o: src/graphics/low_level/IndexBuffer.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/nlsnightmare/Documents/C++/GUI/OpenGL/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object CMakeFiles/nls-engine.dir/src/graphics/low_level/IndexBuffer.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/nlsnightmare/Documents/C++/GUI/OpenGL/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building CXX object CMakeFiles/nls-engine.dir/src/graphics/low_level/IndexBuffer.o"
 	/usr/bin/clang++-5.0   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/nls-engine.dir/src/graphics/low_level/IndexBuffer.o -c /home/nlsnightmare/Documents/C++/GUI/OpenGL/src/graphics/low_level/IndexBuffer.cpp
 
 CMakeFiles/nls-engine.dir/src/graphics/low_level/IndexBuffer.i: cmake_force
@@ -299,7 +323,7 @@ CMakeFiles/nls-engine.dir/src/graphics/low_level/IndexBuffer.o.provides.build: C
 
 CMakeFiles/nls-engine.dir/src/graphics/low_level/Shader.o: CMakeFiles/nls-engine.dir/flags.make
 CMakeFiles/nls-engine.dir/src/graphics/low_level/Shader.o: src/graphics/low_level/Shader.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/nlsnightmare/Documents/C++/GUI/OpenGL/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building CXX object CMakeFiles/nls-engine.dir/src/graphics/low_level/Shader.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/nlsnightmare/Documents/C++/GUI/OpenGL/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building CXX object CMakeFiles/nls-engine.dir/src/graphics/low_level/Shader.o"
 	/usr/bin/clang++-5.0   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/nls-engine.dir/src/graphics/low_level/Shader.o -c /home/nlsnightmare/Documents/C++/GUI/OpenGL/src/graphics/low_level/Shader.cpp
 
 CMakeFiles/nls-engine.dir/src/graphics/low_level/Shader.i: cmake_force
@@ -323,7 +347,7 @@ CMakeFiles/nls-engine.dir/src/graphics/low_level/Shader.o.provides.build: CMakeF
 
 CMakeFiles/nls-engine.dir/src/graphics/low_level/Texture.o: CMakeFiles/nls-engine.dir/flags.make
 CMakeFiles/nls-engine.dir/src/graphics/low_level/Texture.o: src/graphics/low_level/Texture.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/nlsnightmare/Documents/C++/GUI/OpenGL/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building CXX object CMakeFiles/nls-engine.dir/src/graphics/low_level/Texture.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/nlsnightmare/Documents/C++/GUI/OpenGL/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building CXX object CMakeFiles/nls-engine.dir/src/graphics/low_level/Texture.o"
 	/usr/bin/clang++-5.0   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/nls-engine.dir/src/graphics/low_level/Texture.o -c /home/nlsnightmare/Documents/C++/GUI/OpenGL/src/graphics/low_level/Texture.cpp
 
 CMakeFiles/nls-engine.dir/src/graphics/low_level/Texture.i: cmake_force
@@ -347,7 +371,7 @@ CMakeFiles/nls-engine.dir/src/graphics/low_level/Texture.o.provides.build: CMake
 
 CMakeFiles/nls-engine.dir/src/graphics/low_level/VertexArray.o: CMakeFiles/nls-engine.dir/flags.make
 CMakeFiles/nls-engine.dir/src/graphics/low_level/VertexArray.o: src/graphics/low_level/VertexArray.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/nlsnightmare/Documents/C++/GUI/OpenGL/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building CXX object CMakeFiles/nls-engine.dir/src/graphics/low_level/VertexArray.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/nlsnightmare/Documents/C++/GUI/OpenGL/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building CXX object CMakeFiles/nls-engine.dir/src/graphics/low_level/VertexArray.o"
 	/usr/bin/clang++-5.0   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/nls-engine.dir/src/graphics/low_level/VertexArray.o -c /home/nlsnightmare/Documents/C++/GUI/OpenGL/src/graphics/low_level/VertexArray.cpp
 
 CMakeFiles/nls-engine.dir/src/graphics/low_level/VertexArray.i: cmake_force
@@ -371,7 +395,7 @@ CMakeFiles/nls-engine.dir/src/graphics/low_level/VertexArray.o.provides.build: C
 
 CMakeFiles/nls-engine.dir/src/graphics/low_level/stb_image.o: CMakeFiles/nls-engine.dir/flags.make
 CMakeFiles/nls-engine.dir/src/graphics/low_level/stb_image.o: src/graphics/low_level/stb_image.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/nlsnightmare/Documents/C++/GUI/OpenGL/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building CXX object CMakeFiles/nls-engine.dir/src/graphics/low_level/stb_image.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/nlsnightmare/Documents/C++/GUI/OpenGL/CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building CXX object CMakeFiles/nls-engine.dir/src/graphics/low_level/stb_image.o"
 	/usr/bin/clang++-5.0   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/nls-engine.dir/src/graphics/low_level/stb_image.o -c /home/nlsnightmare/Documents/C++/GUI/OpenGL/src/graphics/low_level/stb_image.cpp
 
 CMakeFiles/nls-engine.dir/src/graphics/low_level/stb_image.i: cmake_force
@@ -395,7 +419,7 @@ CMakeFiles/nls-engine.dir/src/graphics/low_level/stb_image.o.provides.build: CMa
 
 CMakeFiles/nls-engine.dir/src/physics/PhysicsEngine.o: CMakeFiles/nls-engine.dir/flags.make
 CMakeFiles/nls-engine.dir/src/physics/PhysicsEngine.o: src/physics/PhysicsEngine.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/nlsnightmare/Documents/C++/GUI/OpenGL/CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building CXX object CMakeFiles/nls-engine.dir/src/physics/PhysicsEngine.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/nlsnightmare/Documents/C++/GUI/OpenGL/CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Building CXX object CMakeFiles/nls-engine.dir/src/physics/PhysicsEngine.o"
 	/usr/bin/clang++-5.0   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/nls-engine.dir/src/physics/PhysicsEngine.o -c /home/nlsnightmare/Documents/C++/GUI/OpenGL/src/physics/PhysicsEngine.cpp
 
 CMakeFiles/nls-engine.dir/src/physics/PhysicsEngine.i: cmake_force
@@ -419,7 +443,7 @@ CMakeFiles/nls-engine.dir/src/physics/PhysicsEngine.o.provides.build: CMakeFiles
 
 CMakeFiles/nls-engine.dir/src/physics/BoxCollider2D.o: CMakeFiles/nls-engine.dir/flags.make
 CMakeFiles/nls-engine.dir/src/physics/BoxCollider2D.o: src/physics/BoxCollider2D.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/nlsnightmare/Documents/C++/GUI/OpenGL/CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Building CXX object CMakeFiles/nls-engine.dir/src/physics/BoxCollider2D.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/nlsnightmare/Documents/C++/GUI/OpenGL/CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Building CXX object CMakeFiles/nls-engine.dir/src/physics/BoxCollider2D.o"
 	/usr/bin/clang++-5.0   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/nls-engine.dir/src/physics/BoxCollider2D.o -c /home/nlsnightmare/Documents/C++/GUI/OpenGL/src/physics/BoxCollider2D.cpp
 
 CMakeFiles/nls-engine.dir/src/physics/BoxCollider2D.i: cmake_force
@@ -447,6 +471,7 @@ nls__engine_OBJECTS = \
 "CMakeFiles/nls-engine.dir/src/GameManager.o" \
 "CMakeFiles/nls-engine.dir/src/LuaScript.o" \
 "CMakeFiles/nls-engine.dir/src/Window.o" \
+"CMakeFiles/nls-engine.dir/src/Log.o" \
 "CMakeFiles/nls-engine.dir/src/game/GameObject.o" \
 "CMakeFiles/nls-engine.dir/src/graphics/Camera.o" \
 "CMakeFiles/nls-engine.dir/src/graphics/Sprite.o" \
@@ -467,6 +492,7 @@ nls-engine: CMakeFiles/nls-engine.dir/src/main.o
 nls-engine: CMakeFiles/nls-engine.dir/src/GameManager.o
 nls-engine: CMakeFiles/nls-engine.dir/src/LuaScript.o
 nls-engine: CMakeFiles/nls-engine.dir/src/Window.o
+nls-engine: CMakeFiles/nls-engine.dir/src/Log.o
 nls-engine: CMakeFiles/nls-engine.dir/src/game/GameObject.o
 nls-engine: CMakeFiles/nls-engine.dir/src/graphics/Camera.o
 nls-engine: CMakeFiles/nls-engine.dir/src/graphics/Sprite.o
@@ -481,7 +507,7 @@ nls-engine: CMakeFiles/nls-engine.dir/src/physics/PhysicsEngine.o
 nls-engine: CMakeFiles/nls-engine.dir/src/physics/BoxCollider2D.o
 nls-engine: CMakeFiles/nls-engine.dir/build.make
 nls-engine: CMakeFiles/nls-engine.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/nlsnightmare/Documents/C++/GUI/OpenGL/CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Linking CXX executable nls-engine"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/nlsnightmare/Documents/C++/GUI/OpenGL/CMakeFiles --progress-num=$(CMAKE_PROGRESS_18) "Linking CXX executable nls-engine"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/nls-engine.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -493,6 +519,7 @@ CMakeFiles/nls-engine.dir/requires: CMakeFiles/nls-engine.dir/src/main.o.require
 CMakeFiles/nls-engine.dir/requires: CMakeFiles/nls-engine.dir/src/GameManager.o.requires
 CMakeFiles/nls-engine.dir/requires: CMakeFiles/nls-engine.dir/src/LuaScript.o.requires
 CMakeFiles/nls-engine.dir/requires: CMakeFiles/nls-engine.dir/src/Window.o.requires
+CMakeFiles/nls-engine.dir/requires: CMakeFiles/nls-engine.dir/src/Log.o.requires
 CMakeFiles/nls-engine.dir/requires: CMakeFiles/nls-engine.dir/src/game/GameObject.o.requires
 CMakeFiles/nls-engine.dir/requires: CMakeFiles/nls-engine.dir/src/graphics/Camera.o.requires
 CMakeFiles/nls-engine.dir/requires: CMakeFiles/nls-engine.dir/src/graphics/Sprite.o.requires

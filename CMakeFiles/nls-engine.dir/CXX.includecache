@@ -194,6 +194,20 @@ Window.hpp
 ./game/GameObject.hpp
 /home/nlsnightmare/Documents/C++/GUI/OpenGL/src/./game/GameObject.hpp
 
+/home/nlsnightmare/Documents/C++/GUI/OpenGL/src/Log.cpp
+iostream
+-
+Log.hpp
+/home/nlsnightmare/Documents/C++/GUI/OpenGL/src/Log.hpp
+
+/home/nlsnightmare/Documents/C++/GUI/OpenGL/src/Log.hpp
+iostream
+-
+string
+-
+fstream
+-
+
 /home/nlsnightmare/Documents/C++/GUI/OpenGL/src/LuaScript.cpp
 LuaScript.hpp
 /home/nlsnightmare/Documents/C++/GUI/OpenGL/src/LuaScript.hpp
@@ -523,6 +537,8 @@ glm/gtc/matrix_transform.hpp
 -
 glm/gtc/type_ptr.hpp
 -
+Log.hpp
+/home/nlsnightmare/Documents/C++/GUI/OpenGL/src/Log.hpp
 Window.hpp
 /home/nlsnightmare/Documents/C++/GUI/OpenGL/src/Window.hpp
 GameManager.hpp

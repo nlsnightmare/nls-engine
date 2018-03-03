@@ -21,6 +21,11 @@
 },
 {
   "directory": "/home/nlsnightmare/Documents/C++/GUI/OpenGL",
+  "command": "/usr/bin/clang++-5.0    -I/home/nlsnightmare/Documents/C++/GUI/OpenGL  -std=c++1z -g   -o CMakeFiles/nls-engine.dir/src/Log.o -c /home/nlsnightmare/Documents/C++/GUI/OpenGL/src/Log.cpp",
+  "file": "/home/nlsnightmare/Documents/C++/GUI/OpenGL/src/Log.cpp"
+},
+{
+  "directory": "/home/nlsnightmare/Documents/C++/GUI/OpenGL",
   "command": "/usr/bin/clang++-5.0    -I/home/nlsnightmare/Documents/C++/GUI/OpenGL  -std=c++1z -g   -o CMakeFiles/nls-engine.dir/src/game/GameObject.o -c /home/nlsnightmare/Documents/C++/GUI/OpenGL/src/game/GameObject.cpp",
   "file": "/home/nlsnightmare/Documents/C++/GUI/OpenGL/src/game/GameObject.cpp"
 },

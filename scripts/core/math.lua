@@ -12,6 +12,10 @@ function Vector3(x,y,z)
 	 __add = function(self,v)
 	    local new_v = Vector3(self.x + v.x, self.y + v.y, self.z + v.z)
 	    return new_v
+	 end,
+
+	 __tostring = function(self)
+	    return "x: "..self.x.." y: "..self.y.." z: "..self.z
 	 end
    })
 
@@ -25,6 +29,10 @@ function Vector2(x,y)
 	 __add = function(self,v)
 	    local new_v = Vector2(self.x + v.x, self.y + v.y)
 	    return new_v
+	 end,
+
+	 __tostring = function(self)
+	    return "x: "..self.x.." y: "..self.y
 	 end
    })
 

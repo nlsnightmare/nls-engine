@@ -30,7 +30,7 @@ Sprite::Sprite(Texture* t, Shader* s)
 }
 
 Sprite::~Sprite(){
-
+	SpriteRenderer::remove_sprite(this);
     delete m_vao;
 }
 

@@ -20,8 +20,10 @@ public:
 private:
     LuaContext script;
     static std::vector<GameObject *> entities;
+	static std::vector<int> entities_for_deletion;
+	static void add_entity_to_removal_queue(GameObject* go);
+    static void remove_entities();
 
     graphics::Camera* main_camera;
-
     std::function<void (float)> update_func;
 };

@@ -15,6 +15,7 @@ namespace graphics {
 
 	static void register_sprite(Sprite& s);
 	static void register_sprite(Sprite* s);
+	static void remove_sprite(Sprite* s);
 
 	static void Render() ;
 
