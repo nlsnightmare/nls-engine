@@ -185,6 +185,8 @@ iostream
 -
 Window.hpp
 /home/nlsnightmare/Documents/C++/GUI/OpenGL/src/Window.hpp
+Log.hpp
+/home/nlsnightmare/Documents/C++/GUI/OpenGL/src/Log.hpp
 
 /home/nlsnightmare/Documents/C++/GUI/OpenGL/src/GameManager.hpp
 ./graphics/Camera.hpp
@@ -247,6 +249,8 @@ functional
 /home/nlsnightmare/Documents/C++/GUI/OpenGL/src/game/GameObject.cpp
 GameObject.hpp
 /home/nlsnightmare/Documents/C++/GUI/OpenGL/src/game/GameObject.hpp
+iostream
+-
 ../physics/PhysicsEngine.hpp
 /home/nlsnightmare/Documents/C++/GUI/OpenGL/src/physics/PhysicsEngine.hpp
 
@@ -357,6 +361,8 @@ low_level/Texture.hpp
 /home/nlsnightmare/Documents/C++/GUI/OpenGL/src/graphics/low_level/Texture.hpp
 
 /home/nlsnightmare/Documents/C++/GUI/OpenGL/src/graphics/SpriteRenderer.cpp
+../GameManager.hpp
+/home/nlsnightmare/Documents/C++/GUI/OpenGL/src/GameManager.hpp
 SpriteRenderer.hpp
 /home/nlsnightmare/Documents/C++/GUI/OpenGL/src/graphics/SpriteRenderer.hpp
 ../game/GameObject.hpp

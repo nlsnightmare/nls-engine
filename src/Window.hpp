@@ -6,7 +6,7 @@ class Window
 {
 public:
     static Window* instance;
-    Window(int width, int height, bool fullscreen, std::string title="");
+    Window(int width, int height, bool fullscreen, std::string title="", bool vsync = false);
     virtual ~Window();
     void Close();
 

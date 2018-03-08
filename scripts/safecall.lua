@@ -1,7 +1,11 @@
-function safe_call(obj1, obj2,fn, param)
-   if obj1 == nil or obj2 == nil then
-      print("no error for you")
+function safe_call(obj,fn,...)
+   if obj == nil or obj[fn] == nil then
       return
+   else
+      if not pcall(obj[fn],...) then
+	 print("why?")
+      end
+      
    end
 
 

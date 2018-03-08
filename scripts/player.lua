@@ -24,10 +24,11 @@ function Player()
 
 
    function self.on_collision(other,data)
+      print("yay")
    end
 
    function self.on_trigger(other, data)
-      print("yay")
+      print("i am triggered")
       other.destroy()
    end
 

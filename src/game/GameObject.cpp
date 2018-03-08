@@ -1,4 +1,5 @@
 #include "GameObject.hpp"
+#include <iostream>
 #include "../physics/PhysicsEngine.hpp"
 
 using namespace graphics;
@@ -9,6 +10,11 @@ GameObject::GameObject(std::string name, std::string s)
     this->name = s;
 
     attach_collider();
+}
+
+GameObject::~GameObject(){
+    //TODO: move it to the collider destructor
+    physics::PhysicsEngine::remove_collider(m_col);
 }
 
 

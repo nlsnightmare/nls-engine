@@ -14,6 +14,7 @@ CMakeFiles/nls-engine.dir/src/GameManager.o
  /home/nlsnightmare/Documents/C++/GUI/OpenGL/src/./physics/BoxCollider2D.hpp
  /home/nlsnightmare/Documents/C++/GUI/OpenGL/src/GameManager.cpp
  /home/nlsnightmare/Documents/C++/GUI/OpenGL/src/GameManager.hpp
+ /home/nlsnightmare/Documents/C++/GUI/OpenGL/src/Log.hpp
  /home/nlsnightmare/Documents/C++/GUI/OpenGL/src/Window.hpp
 CMakeFiles/nls-engine.dir/src/Log.o
  /home/nlsnightmare/Documents/C++/GUI/OpenGL/src/Log.cpp
@@ -51,6 +52,10 @@ CMakeFiles/nls-engine.dir/src/graphics/Sprite.o
  /home/nlsnightmare/Documents/C++/GUI/OpenGL/src/graphics/low_level/Texture.hpp
  /home/nlsnightmare/Documents/C++/GUI/OpenGL/src/graphics/low_level/VertexArray.hpp
 CMakeFiles/nls-engine.dir/src/graphics/SpriteRenderer.o
+ /home/nlsnightmare/Documents/C++/GUI/OpenGL/src/./game/GameObject.hpp
+ /home/nlsnightmare/Documents/C++/GUI/OpenGL/src/./game/LuaContext.hpp
+ /home/nlsnightmare/Documents/C++/GUI/OpenGL/src/./graphics/Camera.hpp
+ /home/nlsnightmare/Documents/C++/GUI/OpenGL/src/GameManager.hpp
  /home/nlsnightmare/Documents/C++/GUI/OpenGL/src/game/GameObject.hpp
  /home/nlsnightmare/Documents/C++/GUI/OpenGL/src/game/LuaContext.hpp
  /home/nlsnightmare/Documents/C++/GUI/OpenGL/src/graphics/./low_level/Texture.hpp

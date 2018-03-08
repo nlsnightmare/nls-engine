@@ -13,6 +13,7 @@ CMakeFiles/nls-engine.dir/src/GameManager.o: src/./graphics/low_level/VertexArra
 CMakeFiles/nls-engine.dir/src/GameManager.o: src/./physics/BoxCollider2D.hpp
 CMakeFiles/nls-engine.dir/src/GameManager.o: src/GameManager.cpp
 CMakeFiles/nls-engine.dir/src/GameManager.o: src/GameManager.hpp
+CMakeFiles/nls-engine.dir/src/GameManager.o: src/Log.hpp
 CMakeFiles/nls-engine.dir/src/GameManager.o: src/Window.hpp
 
 CMakeFiles/nls-engine.dir/src/Log.o: src/Log.cpp
@@ -50,6 +51,10 @@ CMakeFiles/nls-engine.dir/src/graphics/Sprite.o: src/graphics/low_level/Shader.h
 CMakeFiles/nls-engine.dir/src/graphics/Sprite.o: src/graphics/low_level/Texture.hpp
 CMakeFiles/nls-engine.dir/src/graphics/Sprite.o: src/graphics/low_level/VertexArray.hpp
 
+CMakeFiles/nls-engine.dir/src/graphics/SpriteRenderer.o: src/./game/GameObject.hpp
+CMakeFiles/nls-engine.dir/src/graphics/SpriteRenderer.o: src/./game/LuaContext.hpp
+CMakeFiles/nls-engine.dir/src/graphics/SpriteRenderer.o: src/./graphics/Camera.hpp
+CMakeFiles/nls-engine.dir/src/graphics/SpriteRenderer.o: src/GameManager.hpp
 CMakeFiles/nls-engine.dir/src/graphics/SpriteRenderer.o: src/game/GameObject.hpp
 CMakeFiles/nls-engine.dir/src/graphics/SpriteRenderer.o: src/game/LuaContext.hpp
 CMakeFiles/nls-engine.dir/src/graphics/SpriteRenderer.o: src/graphics/./low_level/Texture.hpp

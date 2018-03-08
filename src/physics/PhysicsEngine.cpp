@@ -13,6 +13,18 @@ void PhysicsEngine::register_collider(physics::BoxCollider2D *col){
     cols.push_back(col);
 }
 
+void PhysicsEngine::remove_collider(physics::BoxCollider2D *col){
+    for (auto i = 0; i < cols.size(); ++i) {
+	if (cols[i] == col) {
+	    cols.erase(cols.begin() + i);
+	    break;
+	}
+    }
+
+    delete col;
+
+}
+
 
 void PhysicsEngine::tick(float dt){
     for (int i = 0; i < cols.size(); ++i) {
@@ -24,6 +36,7 @@ void PhysicsEngine::tick(float dt){
 	    auto o1 = cols[i]->parent;
 	    auto o2 = cols[j]->parent;
 	    if (col_data.is_trigger) {
+		std::cout << "collision\n";
 		event_trigger(o1,o2,col_data.x,col_data.y);
 		event_trigger(o2,o1,-col_data.x,-col_data.y);
 	    }

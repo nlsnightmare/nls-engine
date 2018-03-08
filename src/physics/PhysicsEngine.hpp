@@ -17,6 +17,7 @@ namespace physics {
 
 	void tick(float dt);
 	static void register_collider(BoxCollider2D* col);
+	static void remove_collider(BoxCollider2D* col);
 	void set_trigger(event_type fun);
 	void set_collision(event_type fun);
 

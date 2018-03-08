@@ -11,6 +11,7 @@ class GameObject: public Sprite
 {
 public:
     GameObject(std::string name, std::string s);
+    ~GameObject();
 
     std::string name;
 

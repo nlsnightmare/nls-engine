@@ -13,7 +13,7 @@ static void resize_callback(GLFWwindow* window, int new_width, int new_height)
     // glViewport(0, 0, m_width, m_height);
 }  
 
-Window::Window(int width,int height, bool fullscreen, std::string title)
+Window::Window(int width,int height, bool fullscreen, std::string title, bool vsync)
     : m_width(width), m_height(height)
 {
     // TODO: add error handling
@@ -42,7 +42,11 @@ Window::Window(int width,int height, bool fullscreen, std::string title)
 
     glViewport(0, 0, m_width, m_height);
     glfwMakeContextCurrent(m_window);
+    if (!vsync) 
+	glfwSwapInterval(1);
+    else
 	glfwSwapInterval(0);
+	
 
 
     // For some reason glewInit return gl error code 1280

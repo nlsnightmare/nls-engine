@@ -2,6 +2,7 @@
 #include <fstream>
 #include <iostream>
 #include "Window.hpp"
+#include "Log.hpp"
 
 std::vector<GameObject *> GameManager::entities;
 std::vector<int> GameManager::entities_for_deletion;
@@ -20,7 +21,7 @@ GameManager::GameManager()
 }
 
 void GameManager::loop(float dt){
-	std::cout << entities.size() << std::endl;
+    log_message("there are " + std::to_string(entities.size()) + " total entities");
     using namespace graphics;
     if (Window::get_key_down(GLFW_KEY_ESCAPE)) {
 	Window::instance->Close();
@@ -28,6 +29,7 @@ void GameManager::loop(float dt){
 
     if (update_func)
 	update_func(dt);
+
 
 
     remove_entities();
@@ -45,6 +47,7 @@ void GameManager::initialize_script(){
 	"end\n"
 	);
 
+    script.writeFunction("log",&logging::log);
     script.writeFunction("new_entity",&GameManager::add_entity);
     script.writeFunction("entity_get_id",&GameManager::get_entity_index);
     script.writeFunction("__get_key",&Window::get_key_down);
@@ -73,27 +76,30 @@ int GameManager::get_entity_index(GameObject* ptr){
 }
 
 void GameManager::add_entity_to_removal_queue(GameObject* go){
-    std::cout << "go: " << go << "\n";
+    log_message("Adding an entity for deletion!");
     int i = get_entity_index(go);
     if (i != -1) {
-		entities_for_deletion.push_back(i);
+	entities_for_deletion.push_back(i);
     }
 }
 
 void GameManager::remove_entities(){
-    std::cout << "removing " << entities_for_deletion.size() << std::endl;
-	for(auto i : entities_for_deletion){
-		std::cout << i << std::endl;
-		auto go = entities.at(i);
-		delete go;
-		entities.erase(entities.begin() + i);
-	}
-	entities_for_deletion.clear();
+    if (entities_for_deletion.size() > 0) {
+	log_message("removing " + std::to_string(entities_for_deletion.size()));
+    }
+    //FIXME: this deletes all entities, which it shouldn't do
+    for(auto i : entities_for_deletion){
+	GameObject* go = entities.at(i);
+	delete go;
+	entities.erase(entities.begin() + i);
+    }
+    entities_for_deletion.clear();
 }
 
 
 //TODO maybe use the CollisionData struct?
 void GameManager::trigger_event(GameObject* src, GameObject* dst, float x, float y){
+    log_message("trigger entered!!!");
     int srcID = src->get_ID();
     int dstID = dst->get_ID();
     script.writeVariable("__temp0",std::unordered_map<std::string, float>{
@@ -106,8 +112,7 @@ void GameManager::trigger_event(GameObject* src, GameObject* dst, float x, float
     script.executeCode(
 	"__src_e = find_entity(__srcid);"
 	"__dst_e = find_entity(__dstid);"
-	"safe_call(__src_e,__dst_e,__src_e.on_trigger,__temp0)"
-	// "__src_e.on_trigger(__dst_e,__temp0);"
+	"safe_call(__src_e,'on_trigger',__dst_e,__temp0)"
 	);
 }
 
@@ -126,7 +131,7 @@ void GameManager::collision_event(GameObject* src, GameObject* dst, float x, flo
     script.executeCode(
 	"__src_e = find_entity(__srcid);"
 	"__dst_e = find_entity(__dstid);"
-	"__src_e.on_collision(__dst_e,__temp0);"
+	"safe_call(__src_e,'on_collision',__dst_e,__temp0)"
 	);
 }
 

@@ -17,22 +17,27 @@
 #include "./graphics/low_level/Shader.hpp"
 
 
+void load_settings(bool& fs,  int& width, int& height,bool& vsync){
+    std::ifstream settings("settings.dat");
+    LuaContext lc;
+    lc.executeCode(settings);
+    fs = lc.readVariable<bool>("fullscreen");
+    width = lc.readVariable<int>("width");
+    height = lc.readVariable<int>("height");
+    vsync = lc.readVariable<bool>("vsync");
+}
+
 
 int main(int argc, char *argv[]) 
 {
     stbi_set_flip_vertically_on_load(true);
     logging::init();
-    log_message("test");
 
-    log_error("test");
+    bool fs, vsync;
+    int width, height;
+    load_settings(fs, width, height,vsync);
 
-    LuaContext lc;
-    std::ifstream settings("settings.dat");
-    lc.executeCode(settings);
-    bool fs = lc.readVariable<bool>("fullscreen");
-    int width = lc.readVariable<int>("width");
-    int height = lc.readVariable<int>("height");
-    Window main_window(width, height, fs, "Nls-Engine");
+    Window main_window(width, height, fs, "Nls-Engine",vsync);
     GameManager gm;
     physics::PhysicsEngine pe;
     pe.set_trigger([&gm](GameObject* p1, GameObject* p2,float x, float y) mutable {

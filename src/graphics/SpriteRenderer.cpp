@@ -1,3 +1,4 @@
+#include "../GameManager.hpp"
 #include "SpriteRenderer.hpp"
 #include "../game/GameObject.hpp"
 #include <iostream>
@@ -29,18 +30,10 @@ void SpriteRenderer::Render(){
     }
 }
 void SpriteRenderer::remove_sprite(Sprite* s){
-    std::cout << "i have to remove this sprite" << std::endl;
     int text_id = s->get_texture().ID();
-    auto it = sprites.find(text_id);
-
-    if( it == sprites.end())
-	return;
-    else {
-	for(size_t i = 0; i < it->second.size(); i++){
-	    if(it->second[i] == s){
-		it->second.erase(it->second.begin() + i);
-		break;
-	    }
-	}
+    for (auto i = 0; i < sprites.at(text_id).size(); ++i) {
+	if (sprites.at(text_id).at(i) ==s)
+	    sprites.at(text_id).erase(sprites.at(text_id).begin() + i);
     }
+
 }

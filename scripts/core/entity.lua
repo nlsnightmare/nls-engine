@@ -1,4 +1,7 @@
+include("core/input")
 entities = {}
+
+
 
 function find_entity(filter)
    if type(filter) == "string" then
@@ -80,12 +83,23 @@ function Entity(img, n1)
    
 
    function self.update(dt)
+      if get_key(keys.W) then
+	 self.translate(2*dt,0,0)
+      end
+
    end
 
 
    function self.destroy()
-      self.to_be_deleted = true;
       entity_delete(self.ptr)
+      for i= 1,#entities do
+	 if entities[i] == self then
+	    entities[i] = nil
+	    break
+	 end
+
+      end
+      
    end
    
 
@@ -104,15 +118,8 @@ function Entity(img, n1)
 	 
 
    function self.on_collision(other,data)
-      if self.to_be_deleted then
-	 return
-      end
-
    end
    function self.on_trigger(other,data)
-      if self.to_be_deleted then
-	 return
-      end
    end
    
    
