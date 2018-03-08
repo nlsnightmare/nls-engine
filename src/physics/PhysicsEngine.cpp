@@ -36,7 +36,6 @@ void PhysicsEngine::tick(float dt){
 	    auto o1 = cols[i]->parent;
 	    auto o2 = cols[j]->parent;
 	    if (col_data.is_trigger) {
-		std::cout << "collision\n";
 		event_trigger(o1,o2,col_data.x,col_data.y);
 		event_trigger(o2,o1,-col_data.x,-col_data.y);
 	    }
@@ -61,13 +60,11 @@ void PhysicsEngine::handle_collision(GameObject* a, GameObject* b, CollisionData
 	data.y = -data.y;
     }
     
-    if (std::abs(data.x) > std::abs(data.y)) {
-	float dx =  ( math::sign(data.x) - data.x ) /2;
-	GameObject_translate(target, dx, 0, 0);
+    if (std::abs(data.x) < std::abs(data.y)) {
+	GameObject_translate(target, data.x, 0, 0);
     }
     else {
-	float dy = ( math::sign(data.y) - data.y ) /2;
-	GameObject_translate(target, 0, dy, 0);
+	GameObject_translate(target, 0, data.y, 0);
     }
 }
 

@@ -84,7 +84,7 @@ function Entity(img, n1)
 
    function self.update(dt)
       if get_key(keys.W) then
-	 self.translate(2*dt,0,0)
+	 self.translate(1*dt,0,0)
       end
 
    end

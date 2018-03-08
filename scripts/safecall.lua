@@ -3,7 +3,6 @@ function safe_call(obj,fn,...)
       return
    else
       if not pcall(obj[fn],...) then
-	 print("why?")
       end
       
    end

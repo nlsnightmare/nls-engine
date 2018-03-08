@@ -112,6 +112,7 @@ CMakeFiles/nls-engine.dir/src/main.o
  /home/nlsnightmare/Documents/C++/GUI/OpenGL/src/Window.hpp
  /home/nlsnightmare/Documents/C++/GUI/OpenGL/src/main.cpp
 CMakeFiles/nls-engine.dir/src/physics/BoxCollider2D.o
+ /home/nlsnightmare/Documents/C++/GUI/OpenGL/src/Math.hpp
  /home/nlsnightmare/Documents/C++/GUI/OpenGL/src/physics/BoxCollider2D.cpp
  /home/nlsnightmare/Documents/C++/GUI/OpenGL/src/physics/BoxCollider2D.hpp
 CMakeFiles/nls-engine.dir/src/physics/PhysicsEngine.o

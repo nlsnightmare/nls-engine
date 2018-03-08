@@ -111,6 +111,7 @@ CMakeFiles/nls-engine.dir/src/main.o: src/Log.hpp
 CMakeFiles/nls-engine.dir/src/main.o: src/Window.hpp
 CMakeFiles/nls-engine.dir/src/main.o: src/main.cpp
 
+CMakeFiles/nls-engine.dir/src/physics/BoxCollider2D.o: src/Math.hpp
 CMakeFiles/nls-engine.dir/src/physics/BoxCollider2D.o: src/physics/BoxCollider2D.cpp
 CMakeFiles/nls-engine.dir/src/physics/BoxCollider2D.o: src/physics/BoxCollider2D.hpp
 

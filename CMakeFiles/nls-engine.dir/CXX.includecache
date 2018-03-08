@@ -227,6 +227,8 @@ lua5.3/lualib.h
 -
 
 /home/nlsnightmare/Documents/C++/GUI/OpenGL/src/Math.hpp
+cmath
+-
 
 /home/nlsnightmare/Documents/C++/GUI/OpenGL/src/Window.cpp
 GL/glew.h
@@ -561,6 +563,8 @@ GameManager.hpp
 /home/nlsnightmare/Documents/C++/GUI/OpenGL/src/physics/BoxCollider2D.cpp
 BoxCollider2D.hpp
 /home/nlsnightmare/Documents/C++/GUI/OpenGL/src/physics/BoxCollider2D.hpp
+../Math.hpp
+/home/nlsnightmare/Documents/C++/GUI/OpenGL/src/Math.hpp
 iostream
 -
 
