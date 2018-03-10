@@ -2,9 +2,11 @@
 #include <cstdlib>
 #include <iostream>
 #include "Window.hpp"
+#include <algorithm>
 #include <math.h>
 
 Window* Window::instance = nullptr;
+std::map<int,bool> Window::m_keycodes_watchlist;
 
 static void resize_callback(GLFWwindow* window, int new_width, int new_height)
 {
@@ -88,13 +90,13 @@ void Window::Update(){
 	dt = now - last_time;
 	fps = 1/dt;
 	glClear(GL_COLOR_BUFFER_BIT | GL_DEPTH_BUFFER_BIT );
-
-	glClearColor(( sin(now * 5)+1 ) / 2,0.2f,0.3f, 1.0f);
-
 	m_update_function(dt);
 
 	glfwSwapBuffers(m_window);
+
+
 	glfwPollEvents();
+	check_for_keys();
 	last_time  = now;
     }
 }
@@ -108,6 +110,22 @@ void Window::Close(){
     exit(0);
 }
 
-bool Window::get_key_down(int keycode){
+bool Window::get_key(int keycode){
     return glfwGetKey(Window::instance->m_window, keycode);
+}
+
+
+bool Window::get_key_down(int keycode){
+    if (m_keycodes_watchlist.find(keycode) != m_keycodes_watchlist.end()) 
+	return !m_keycodes_watchlist[keycode] && get_key(keycode);
+    else
+	m_keycodes_watchlist.insert(std::make_pair(keycode,false));
+    return false;
+}
+
+void Window::check_for_keys() {
+    for (auto it = m_keycodes_watchlist.begin(); it != m_keycodes_watchlist.end(); ++it){
+	it->second = get_key(it->first);
+    }
+
 }

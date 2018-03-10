@@ -135,3 +135,7 @@ keys = readonlytable {
 function get_key(k)
    return __get_key(k)
 end
+
+function get_key_down(k)
+   return __get_key_down(k)
+end

@@ -21,12 +21,7 @@ GameManager::GameManager()
 }
 
 void GameManager::loop(float dt){
-    log_message("there are " + std::to_string(entities.size()) + " total entities");
     using namespace graphics;
-    if (Window::get_key_down(GLFW_KEY_ESCAPE)) {
-	Window::instance->Close();
-    }
-
     if (update_func)
 	update_func(dt);
 
@@ -50,7 +45,8 @@ void GameManager::initialize_script(){
     script.writeFunction("log",&logging::log);
     script.writeFunction("new_entity",&GameManager::add_entity);
     script.writeFunction("entity_get_id",&GameManager::get_entity_index);
-    script.writeFunction("__get_key",&Window::get_key_down);
+    script.writeFunction("__get_key",&Window::get_key);
+    script.writeFunction("__get_key_down",&Window::get_key_down);
     script.writeFunction("entity_delete",&GameManager::add_entity_to_removal_queue);
 
     GameObject::set_lua_bindings(script);
@@ -136,11 +132,12 @@ void GameManager::collision_event(GameObject* src, GameObject* dst, float x, flo
 }
 
 GameManager::~GameManager(){
-    delete main_camera;
     for (auto it = entities.begin(); it != entities.end(); ++it) {
 	delete *it;
     }
     Shader::delete_shaders();
     Texture::delete_textures();
+
+    // delete main_camera;
 }
 

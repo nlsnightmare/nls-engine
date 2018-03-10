@@ -239,6 +239,8 @@ iostream
 -
 Window.hpp
 /home/nlsnightmare/Documents/C++/GUI/OpenGL/src/Window.hpp
+algorithm
+-
 math.h
 -
 
@@ -246,6 +248,8 @@ math.h
 GLFW/glfw3.h
 -
 functional
+-
+map
 -
 
 /home/nlsnightmare/Documents/C++/GUI/OpenGL/src/game/GameObject.cpp
