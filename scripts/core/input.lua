@@ -139,3 +139,8 @@ end
 function get_key_down(k)
    return __get_key_down(k)
 end
+
+function get_key_up(k)
+   return __get_key_up(k)
+end
+

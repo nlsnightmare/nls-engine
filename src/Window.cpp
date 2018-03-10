@@ -95,8 +95,8 @@ void Window::Update(){
 	glfwSwapBuffers(m_window);
 
 
-	glfwPollEvents();
 	check_for_keys();
+	glfwPollEvents();
 	last_time  = now;
     }
 }
@@ -114,6 +114,13 @@ bool Window::get_key(int keycode){
     return glfwGetKey(Window::instance->m_window, keycode);
 }
 
+bool Window::get_key_up(int keycode){
+    if (m_keycodes_watchlist.find(keycode) != m_keycodes_watchlist.end()) 
+	return m_keycodes_watchlist[keycode] && !get_key(keycode);
+    
+    m_keycodes_watchlist.insert(std::make_pair(keycode,false));
+    return false;
+}
 
 bool Window::get_key_down(int keycode){
     if (m_keycodes_watchlist.find(keycode) != m_keycodes_watchlist.end()) 

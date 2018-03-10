@@ -16,6 +16,7 @@ public:
     inline float get_aspect_ratio() const { return m_aspect_ratio; }
     static bool get_key(int keycode);
     static bool get_key_down(int keycode);
+    static bool get_key_up(int keycode);
 
 private:
 

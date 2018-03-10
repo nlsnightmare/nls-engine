@@ -16,9 +16,6 @@ e.set_scale(1,1,0)
 -- e.set_trigger(true)
 
 function update(dt)
-   if get_key_down(keys.ESCAPE) then
-      print("yay")
-   end
 
    for _,e in pairs(entities) do
       e.update(dt)

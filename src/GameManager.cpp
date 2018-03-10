@@ -47,6 +47,7 @@ void GameManager::initialize_script(){
     script.writeFunction("entity_get_id",&GameManager::get_entity_index);
     script.writeFunction("__get_key",&Window::get_key);
     script.writeFunction("__get_key_down",&Window::get_key_down);
+    script.writeFunction("__get_key_up",&Window::get_key_up);
     script.writeFunction("entity_delete",&GameManager::add_entity_to_removal_queue);
 
     GameObject::set_lua_bindings(script);
